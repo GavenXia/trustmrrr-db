@@ -1,0 +1,502 @@
+[
+    {
+        "_id": "6a831309bc3c9182b9d9dd24",
+        "slug": "ticketted-pty-ltd",
+        "name": "Ticketted Pty Ltd"
+      },
+      {
+        "_id": "6a830715f4942ed039274c89",
+        "slug": "fayeed",
+        "name": "Clypy"
+      },
+      {
+        "_id": "6a8303af40814bea504e9f05",
+        "slug": "looksmax-it",
+        "name": "LooksMAX.it"
+      },
+      {
+        "_id": "6a82f97f10eb1ecfda4fd670",
+        "slug": "makelocalads",
+        "name": "Private Enterprise"
+      },
+      {
+        "_id": "6a82f6c9b48c4d3998bf38ce",
+        "slug": "sonora-ai",
+        "name": "Sonora AI"
+      },
+      {
+        "_id": "6a82eb422744bbb515d225fe",
+        "slug": "sailo",
+        "name": "Sailo"
+      },
+      {
+        "_id": "6a82e7a85224a7e2c69b0ba7",
+        "slug": "robomonkey",
+        "name": "Robomonkey"
+      },
+      {
+        "_id": "6a82e54676b909bd055b5c3b",
+        "slug": "minerva33",
+        "name": "Minerva"
+      },
+      {
+        "_id": "6a82e4f9a5074f8f1f02b3ef",
+        "slug": "paddle-business-26",
+        "name": "Paddle Business"
+      },
+      {
+        "_id": "6a82e0dd04ed2164ae81dd7f",
+        "slug": "fitkofer-calorie-tracker",
+        "name": "Fitkofer Calorie Tracker"
+      },
+      {
+        "_id": "6a82daa41a63bbf42bc8d90f",
+        "slug": "continuumnexus",
+        "name": "ContinuumNexus"
+      },
+      {
+        "_id": "6a82d891f90b6efc3a5c0abe",
+        "slug": "newzly",
+        "name": "Newzly"
+      },
+      {
+        "_id": "6a82d0bd2e1c254face76d0e",
+        "slug": "promptreverse",
+        "name": "PromptReverse"
+      },
+      {
+        "_id": "6a82d058d60c20829fd955f2",
+        "slug": "eten-meal-planner-recipes",
+        "name": "Eten: Meal Planner & Recipes"
+      },
+      {
+        "_id": "6a82c7605510dca80d89a99e",
+        "slug": "quorlight-llc",
+        "name": "Comik AI"
+      },
+      {
+        "_id": "6a82c308bccbe4f91506948e",
+        "slug": "tik-break",
+        "name": "TikBreak"
+      },
+      {
+        "_id": "6a82b0ff90028d8182918ee8",
+        "slug": "bilgim-labs-llc",
+        "name": "Bilgim AI"
+      },
+      {
+        "_id": "6a82afca90028d8182918a18",
+        "slug": "linkutm",
+        "name": "linkutm"
+      },
+      {
+        "_id": "6a829c94ff9a3fa6c731d981",
+        "slug": "taptax",
+        "name": "TapTax"
+      },
+      {
+        "_id": "6a8293004fbad1554acdb176",
+        "slug": "amicro",
+        "name": "Amicro"
+      },
+      {
+        "_id": "6a828abd626b6e3051efe24b",
+        "slug": "1600-lol",
+        "name": "Private Venture"
+      },
+      {
+        "_id": "6a828a8111fc128025d42638",
+        "slug": "mangakadotapp",
+        "name": "Mangaka.app"
+      },
+      {
+        "_id": "6a827f7fc7e5c8cdb515ac00",
+        "slug": "venetia-s-vintage",
+        "name": "Venetia's Vintage"
+      },
+      {
+        "_id": "6a826cecb5bb9a65e0092247",
+        "slug": "sitejourney",
+        "name": "SiteJourney"
+      },
+      {
+        "_id": "6a825bb54e4729b49d04e642",
+        "slug": "startup-x7220ipg",
+        "name": "Language Babe Trainer"
+      },
+      {
+        "_id": "6a8257334e4729b49d04d634",
+        "slug": "stonksgo-ai",
+        "name": "StonksGo AI"
+      },
+      {
+        "_id": "6a82558f94392c0ef83cb02f",
+        "slug": "wasabi-viral-ai-party-games",
+        "name": "Wasabi: Multiplayer AI Party Games"
+      },
+      {
+        "_id": "6a8235d909b0732b7f55e1ef",
+        "slug": "anonymous-startup-40",
+        "name": "Anonymous Startup"
+      },
+      {
+        "_id": "6a822e5e5f95ad45077e9b62",
+        "slug": "snipr-sh",
+        "name": "Snipr.sh"
+      },
+      {
+        "_id": "6a822b7e45597b676623df0d",
+        "slug": "adriselab",
+        "name": "AdRiseLab"
+      },
+      {
+        "_id": "6a822469ac2be12fbd382b00",
+        "slug": "lihn-ai",
+        "name": "Lihn AI"
+      },
+      {
+        "_id": "6a821fa645597b676623cd16",
+        "slug": "quibly",
+        "name": "Quibly"
+      },
+      {
+        "_id": "6a8203203f6d2193a43f8d10",
+        "slug": "domisol",
+        "name": "domisol"
+      },
+      {
+        "_id": "6a82002943a24872c9d7dd71",
+        "slug": "relay",
+        "name": "Relay"
+      },
+      {
+        "_id": "6a81eef9402258f29bea26ba",
+        "slug": "flare-design",
+        "name": "flare.design"
+      },
+      {
+        "_id": "6a81ddc193363d2c7c6efd94",
+        "slug": "dialbridgeai",
+        "name": "Dial Bridge"
+      },
+      {
+        "_id": "6a81d9e504461d621d8b8112",
+        "slug": "stealth-company-42",
+        "name": "Stealth Company"
+      },
+      {
+        "_id": "6a81cee360983267201ae75d",
+        "slug": "anonymous-startup-39",
+        "name": "Anonymous Startup"
+      },
+      {
+        "_id": "6a81ca0800864244a3086ca5",
+        "slug": "indie-need",
+        "name": "Indie Need"
+      },
+      {
+        "_id": "6a81c5b8ec6d368a99275202",
+        "slug": "mon-carnet-d-eau",
+        "name": "Mon Carnet d'Eau"
+      },
+      {
+        "_id": "6a81b5549a7d85cc28d8b140",
+        "slug": "pepiq-everything-peptides",
+        "name": "PepIQ: Shop & Scan Peptides"
+      },
+      {
+        "_id": "6a81ae0f9961f4ca8a9d137f",
+        "slug": "whattoupload",
+        "name": "WhatToUpload"
+      },
+      {
+        "_id": "6a81ad03c2a475adc1efd36e",
+        "slug": "curtain-ai",
+        "name": "Organic iOS + Android AI curtain visualizer | $581 MRR | $10K+ all-time revenue | 69 subscribers"
+      },
+      {
+        "_id": "6a81a95ec2a475adc1efd060",
+        "slug": "remember-your-people-app",
+        "name": "Remember Your People"
+      },
+      {
+        "_id": "6a819e01295ee4668d9ef2ba",
+        "slug": "billslip",
+        "name": "BillSlip"
+      },
+      {
+        "_id": "6a8198f295cf9abe3ad39919",
+        "slug": "ai-baby-generator",
+        "name": "AI Baby Generator"
+      },
+      {
+        "_id": "6a8193a28cd6ef96f77648ce",
+        "slug": "figform",
+        "name": "FigForm"
+      },
+      {
+        "_id": "6a818a9e70bcf285c92c618e",
+        "slug": "voicy",
+        "name": "Voicy"
+      },
+      {
+        "_id": "6a81855ba1b3901769b880e9",
+        "slug": "coruve",
+        "name": "Coruve | Privacy First Analytics"
+      },
+      {
+        "_id": "6a817e6375e0db5266e42f9b",
+        "slug": "newsletter-surf",
+        "name": "Newsletter Surf"
+      },
+      {
+        "_id": "6a817da428cd96093cf79de2",
+        "slug": "paddle-business-22",
+        "name": "Claude Watermark"
+      },
+      {
+        "_id": "6a817cd922391be82d542c76",
+        "slug": "paddle-business-11",
+        "name": "Paddle Business"
+      },
+      {
+        "_id": "6a81730123a1571c6ae5722e",
+        "slug": "caloria",
+        "name": "Caloria"
+      },
+      {
+        "_id": "6a8169dbc8ecc6ae1e8cb3db",
+        "slug": "startup-ffb722235c9b",
+        "name": "Chargeback Specialist"
+      },
+      {
+        "_id": "6a814d5ee9f33815c0f08265",
+        "slug": "faqlens",
+        "name": "Faqlens"
+      },
+      {
+        "_id": "6a80cc87b5f6b23575d8e433",
+        "slug": "mascofast",
+        "name": "Mascofast"
+      },
+      {
+        "_id": "6a80c813569e9a5d19ccb4ae",
+        "slug": "whatcopilot",
+        "name": "WhatCopilot"
+      },
+      {
+        "_id": "6a80befc4e6a8289ff69eb22",
+        "slug": "appwispr",
+        "name": "AppWispr"
+      },
+      {
+        "_id": "6a80af28e6afd0a8a0ab1336",
+        "slug": "monkei",
+        "name": "Monkei, LLC"
+      },
+      {
+        "_id": "6a80ae3ef81246aaa80c416b",
+        "slug": "findly-tools",
+        "name": "Findly.tools"
+      },
+      {
+        "_id": "6a80ade606c4bf07689e7f0c",
+        "slug": "snip-farm",
+        "name": "Snip Farm"
+      },
+      {
+        "_id": "6a809bad4a46f436232ce813",
+        "slug": "seomap",
+        "name": "SEOMap"
+      },
+      {
+        "_id": "6a809a43fdb7ccf5dbaf040f",
+        "slug": "klickleads",
+        "name": "Klickleads"
+      },
+      {
+        "_id": "6a807c3f69f226192b1b78fa",
+        "slug": "bot-do-afiliado",
+        "name": "Bot do Afiliado"
+      },
+      {
+        "_id": "6a807a1f916f7b2ad7c19582",
+        "slug": "altitude-labs-limited",
+        "name": "Altitude Labs Limited"
+      },
+      {
+        "_id": "6a8070b7d2ddebe18638de57",
+        "slug": "jebkharch",
+        "name": "JebKharch"
+      },
+      {
+        "_id": "6a80597228505e53b7275cb4",
+        "slug": "customergpt",
+        "name": "CustomerGPT"
+      },
+      {
+        "_id": "6a804e18f953c39013c507e2",
+        "slug": "threadly",
+        "name": "Threadly"
+      },
+      {
+        "_id": "6a80419420ff39974d1625aa",
+        "slug": "replyhey",
+        "name": "ReplyHey - Get customers from Reddit on Autopilot"
+      },
+      {
+        "_id": "6a80408dff0eaaf013bd5bae",
+        "slug": "syted",
+        "name": "Syted"
+      },
+      {
+        "_id": "6a803a14959bd63fcd0ea2cc",
+        "slug": "crawloscope",
+        "name": "Crawloscope"
+      },
+      {
+        "_id": "6a802d58959bd63fcd0e89c7",
+        "slug": "japanese-education-app",
+        "name": "Private Venture"
+      },
+      {
+        "_id": "6a802ac54e423319d30fe67d",
+        "slug": "watchgoose",
+        "name": "Watchgoose"
+      },
+      {
+        "_id": "6a801c7a96cc7b11c466856b",
+        "slug": "workway",
+        "name": "WorkWay"
+      },
+      {
+        "_id": "6a8018017469951c4281e52b",
+        "slug": "stayfocus",
+        "name": "Stay Focus"
+      },
+      {
+        "_id": "6a800b9f694019047f3252a2",
+        "slug": "beautyflow-1",
+        "name": "Beautyflow"
+      },
+      {
+        "_id": "6a8005c9e14d08091d27ec63",
+        "slug": "firstshelf-ai",
+        "name": "FirstShelf.AI"
+      },
+      {
+        "_id": "6a7ff05d37d20bd8ea49c0fb",
+        "slug": "viewmax",
+        "name": "viewmax"
+      },
+      {
+        "_id": "6a7fdec0d380b46952267332",
+        "slug": "foot-next",
+        "name": "Foot Next"
+      },
+      {
+        "_id": "6a7fcb1ead1fca2a5854f625",
+        "slug": "thumblore",
+        "name": "Thumblore"
+      },
+      {
+        "_id": "6a7fa494ca8a5d7de1016ba3",
+        "slug": "cosmo",
+        "name": "Cosmo"
+      },
+      {
+        "_id": "6a7f9f0b594120b4ee23e598",
+        "slug": "tikneuron",
+        "name": "TikNeuron"
+      },
+      {
+        "_id": "6a7f80a44d41a9779c9f6c1b",
+        "slug": "cloney",
+        "name": "Cloney"
+      },
+      {
+        "_id": "6a7f7fffc6245f3acea259c3",
+        "slug": "leadshark",
+        "name": "LeadShark"
+      },
+      {
+        "_id": "6a7f7d15146786f7aa44997c",
+        "slug": "founderdive",
+        "name": "FounderDive"
+      },
+      {
+        "_id": "6a7f7aaf007aca6305181521",
+        "slug": "dealhunt-se",
+        "name": "DealHunt"
+      },
+      {
+        "_id": "6a7f5e668d2b3113694a7701",
+        "slug": "superfruits",
+        "name": "GojiberryAI"
+      },
+      {
+        "_id": "6a7f5d2a46ce670b85bc12a8",
+        "slug": "rightone",
+        "name": "RightOne"
+      },
+      {
+        "_id": "6a7f5ac14a147ed14e0ad262",
+        "slug": "private-enterprise-26",
+        "name": "Private Enterprise"
+      },
+      {
+        "_id": "6a7f5771dafff6ffbbd4fa1a",
+        "slug": "calmfort",
+        "name": "Calmfort"
+      },
+      {
+        "_id": "6a7f4c253f6fbe8442af0db3",
+        "slug": "cakora",
+        "name": "Cakora"
+      },
+      {
+        "_id": "6a7f45859ac634734f3b9e32",
+        "slug": "cvpic",
+        "name": "CVPIC"
+      },
+      {
+        "_id": "6a7f45662ea1a78fe1ba369c",
+        "slug": "safebrowz",
+        "name": "SafeBrowz: AI Scam Detector"
+      },
+      {
+        "_id": "6a7f43ae2ea1a78fe1ba3132",
+        "slug": "rosvelt",
+        "name": "Hidden Business"
+      },
+      {
+        "_id": "6a7f4339095e78fb28607b19",
+        "slug": "pet-pablo",
+        "name": "Pet Pablo"
+      },
+      {
+        "_id": "6a7f3cbc9ac634734f3b8eb5",
+        "slug": "flinck",
+        "name": "Flinck"
+      },
+      {
+        "_id": "6a7f3c18110947b6867b3a65",
+        "slug": "shipcontent-app",
+        "name": "ShipContent"
+      },
+      {
+        "_id": "6a7f33f5279371655ae239ff",
+        "slug": "aantraa",
+        "name": "Aantraa"
+      },
+      {
+        "_id": "6a7f2f6b616c9744daa1f059",
+        "slug": "cloudcode",
+        "name": "CloudCode"
+      },
+      {
+        "_id": "6a7f296655f8bbc3f2b3933d",
+        "slug": "anonymous-startup-38",
+        "name": "Anonymous Startup"
+      }
+]
