@@ -1,0 +1,3098 @@
+[
+  {
+    "startup": {
+      "_id": "6a831309bc3c9182b9d9dd24",
+      "name": "Ticketted Pty Ltd",
+      "icon": null,
+      "website": "https://www.ticketted.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 13,
+      "description": "We provide ticketing services for local community events in Australia.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "sanjayuncut_",
+      "country": "AU",
+      "foundedDate": "2026-05-13T00:00:00.000Z",
+      "category": "Theater",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "ticketted-pty-ltd",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 1,
+      "xFounderName": "Sanjay Kumar",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2044742733710123008/Jjl4cxVl.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": null,
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": 1265,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a8313b3e1555664c62814b5"
+        },
+        {
+          "slug": "convex",
+          "category": "backend",
+          "_id": "6a8313b3e1555664c62814b6"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a8313b3e1555664c62814b7"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a8313b3e1555664c62814b8"
+        }
+      ],
+      "createdAt": "2026-08-17T13:56:25.364Z",
+      "updatedAt": "2026-08-18T13:31:40.426Z",
+      "ahrefsDomain": "ticketted.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T13:59:16.377Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:04.781Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:05.185Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "marketplace"
+        ],
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "updatedAt": "2026-08-17T13:59:15.598Z"
+      },
+      "userCategory": "Marketplace",
+      "userCategorySlug": "marketplace",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": true,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/ticketted-pty-ltd",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "AU",
+      "founderProfile": "https://trustmrr.com/founder/sanjayuncut_",
+      "founderTwitter": "https://x.com/sanjayuncut_"
+    },
+    "fetchMs": 228.021388,
+    "parseMs": 2.815301000000005
+  },
+  {
+    "startup": {
+      "_id": "6a830715f4942ed039274c89",
+      "name": "Clypy",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/fayeed-b1ad0ba3-9411-4816-847f-70b7a758f214.png",
+      "website": "https://clypy.app",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Universal clipboard for your everything Ctrl+C & Ctrl+V",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "fayeedp",
+      "country": "IN",
+      "foundedDate": "2026-07-01T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "dodopayment",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "fayeed",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 50,
+      "xFounderName": "Fayeed | Clypy",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2084854198479486976/dk04pI_-.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": null,
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "rust",
+          "category": "backend",
+          "_id": "6a8307e333a1a9db0b0646e7"
+        },
+        {
+          "slug": "tauri",
+          "category": "frontend",
+          "_id": "6a8307e333a1a9db0b0646e8"
+        },
+        {
+          "slug": "expo",
+          "category": "frontend",
+          "_id": "6a8307e333a1a9db0b0646e9"
+        },
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a8307e333a1a9db0b0646ea"
+        },
+        {
+          "slug": "sqlite",
+          "category": "backend",
+          "_id": "6a8307e333a1a9db0b0646eb"
+        },
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a8307e333a1a9db0b0646ec"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a8307e333a1a9db0b0646ed"
+        },
+        {
+          "slug": "app-store-optimization",
+          "category": "organic",
+          "_id": "6a8307e333a1a9db0b0646ee"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a8307e333a1a9db0b0646ef"
+        },
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a8307e333a1a9db0b0646f0"
+        }
+      ],
+      "createdAt": "2026-08-17T13:05:25.300Z",
+      "updatedAt": "2026-08-18T13:31:40.431Z",
+      "ahrefsDomain": "clypy.app",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T13:07:55.687Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:04.285Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:05.673Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "productivity",
+          "ai"
+        ],
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "updatedAt": "2026-08-17T13:08:51.886Z"
+      },
+      "userCategory": "Productivity",
+      "userCategorySlug": "productivity",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/fayeed",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "IN",
+      "founderProfile": "https://trustmrr.com/founder/fayeedp",
+      "founderTwitter": "https://x.com/fayeedp"
+    },
+    "fetchMs": 216.222764,
+    "parseMs": 0.915348999999992
+  },
+  {
+    "startup": {
+      "_id": "6a8303af40814bea504e9f05",
+      "name": "LooksMAX.it",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/looksmax-it-ada02ba3-32f3-4bac-8a10-274b32f09c07.png",
+      "website": "https://looksmax.it",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Vendo accesso a piattaforme proprietarie saas, prodotti digitali correlati, accessi a paid community delle saas",
+      "brandingPrimaryColor": "#141419",
+      "brandingSecondaryColor": "#81e47a",
+      "xHandle": "justnicola",
+      "country": "IT",
+      "foundedDate": "2026-07-30T00:00:00.000Z",
+      "category": "Media",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 64.88935567044894,
+      "currentMrr": 20.83,
+      "currentLast30DaysRevenue": 64.88935567044894,
+      "currentActiveSubscriptions": 3,
+      "slug": "looksmax-it",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 33,
+      "xFounderName": "Nicola",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1888033930369978368/xJzAOonI.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": 90,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 5226,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T13:17:02.371Z",
+        "valueProposition": "A personalized looksmaxxing journey focusing on jawline, posture, skincare, hair, style, and sleep.",
+        "problemSolved": "Improving personal appearance methodically without extreme practices.",
+        "pricingModel": "Free",
+        "targetPersona": "Individuals looking to improve their appearance with a structured and evidence-based approach.",
+        "businessType": "B2C",
+        "tags": [
+          "health-fitness",
+          "content-creation",
+          "education"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": 700,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/looksmax-it/1786972657040-e33020f1-ca1e-48ed-869f-d7d3b3a3300d-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T13:17:02.371Z",
+            "viewport": {
+              "width": 1920,
+              "height": 8311,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": 28,
+      "revenuePerVisitorLast30Days": 2.3175,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "tailwindcss",
+          "category": "frontend",
+          "_id": "6a8307f281d6ab9168d54390"
+        },
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a8307f281d6ab9168d54391"
+        },
+        {
+          "slug": "typescript",
+          "category": "frontend",
+          "_id": "6a8307f281d6ab9168d54392"
+        },
+        {
+          "slug": "supabase",
+          "category": "backend",
+          "_id": "6a8307f281d6ab9168d54393"
+        },
+        {
+          "slug": "stripe",
+          "category": "backend",
+          "_id": "6a8307f281d6ab9168d54394"
+        },
+        {
+          "slug": "resend",
+          "category": "backend",
+          "_id": "6a8307f281d6ab9168d54395"
+        },
+        {
+          "slug": "vercel",
+          "category": "backend",
+          "_id": "6a8307f281d6ab9168d54396"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a8307f281d6ab9168d54397"
+        },
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a8307f281d6ab9168d54398"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a8307f281d6ab9168d54399"
+        },
+        {
+          "slug": "tiktok",
+          "category": "social",
+          "_id": "6a8307f281d6ab9168d5439a"
+        }
+      ],
+      "createdAt": "2026-08-17T12:50:55.728Z",
+      "updatedAt": "2026-08-18T14:36:29.211Z",
+      "ahrefsDomain": "looksmax.it",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T13:02:03.734Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:04.220Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:04.870Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "saas",
+          "education",
+          "health-fitness",
+          "entertainment"
+        ],
+        "valueProposition": "Structured 90-day self-improvement protocol for young Italian men — 10 minutes a day on skin, posture/jawline, style and sleep, science-backed, no extreme practices",
+        "problemSolved": "Guys who want to look better don't know where to start: scattered YouTube tips, no system, or toxic looksmaxxing forums pushing dangerous advice",
+        "pricingModel": "3-day free trial, then €17.99/3 months or €3.99/week",
+        "targetPersona": "Italian men aged 16–24 who want to improve their appearance",
+        "businessType": "B2C",
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "misc": "100% in Italian. Web-based personal area, no app download. Daily lessons unlocked one per day, 2 ebooks included, 7-area knowledge base. Every claim sourced (PubMed/Google Scholar). Recommended products under €30, available in any pharmacy. Support 7/7 at hello@looksmax.it",
+        "updatedAt": "2026-08-17T13:02:01.123Z"
+      },
+      "userCategory": "SaaS",
+      "userCategorySlug": "saas",
+      "targetAudience": "B2C",
+      "rank": 5226,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/looksmax-it",
+      "tagLine": "A personalized looksmaxxing journey focusing on jawline, posture, skincare, hair, style, and sleep.",
+      "founded": "2026",
+      "location": "IT",
+      "founderProfile": "https://trustmrr.com/founder/justnicola",
+      "founderTwitter": "https://x.com/justnicola"
+    },
+    "fetchMs": 338.84401099999997,
+    "parseMs": 0.8885930000000144
+  },
+  {
+    "startup": {
+      "_id": "6a82f97f10eb1ecfda4fd670",
+      "name": "Private Enterprise",
+      "icon": null,
+      "website": null,
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": null,
+      "description": "Add your product URL and get high converting Ad creatives without promptin. Trusted by 1000+ brands across the world.",
+      "brandingPrimaryColor": "#6b7280",
+      "brandingSecondaryColor": "#9ca3af",
+      "xHandle": "projektkush",
+      "country": "IN",
+      "foundedDate": "2026-03-22T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "dodopayment",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 3949.29,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 81,
+      "slug": "makelocalads",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": true,
+      "noIndex": false,
+      "xFollowerCount": 250,
+      "xFounderName": "Kush Sheth",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1961323131412647936/LHqpkO-P.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": 100,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "tags": [],
+        "estimatedUserCount": null
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [
+        {
+          "xHandle": "anshdixit03",
+          "xName": "Ansh Dixit",
+          "xFollowerCount": 16,
+          "xProfilePicture": "https://pbs.twimg.com/profile_images/2065733924815548416/vMBsvtbg.jpg",
+          "_id": "6a82ff25e893825ac2572bb8"
+        },
+        {
+          "xHandle": "ta_nush",
+          "xName": "Tanush Mahalka",
+          "xFollowerCount": 142,
+          "xProfilePicture": "https://pbs.twimg.com/profile_images/1821723671364280320/24nEYWMa.jpg",
+          "_id": "6a82ff25e893825ac2572bb9"
+        }
+      ],
+      "techStack": [
+        {
+          "slug": "neon",
+          "category": "backend",
+          "_id": "6a82ff25e893825ac2572ba4"
+        },
+        {
+          "slug": "typescript",
+          "category": "frontend",
+          "_id": "6a82ff25e893825ac2572ba5"
+        },
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a82ff25e893825ac2572ba6"
+        },
+        {
+          "slug": "openai",
+          "category": "backend",
+          "_id": "6a82ff25e893825ac2572ba7"
+        },
+        {
+          "slug": "anthropic",
+          "category": "backend",
+          "_id": "6a82ff25e893825ac2572ba8"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "instagram",
+          "category": "social",
+          "_id": "6a82ff25e893825ac2572ba9"
+        },
+        {
+          "slug": "linkedin",
+          "category": "social",
+          "_id": "6a82ff25e893825ac2572baa"
+        },
+        {
+          "slug": "twitter",
+          "category": "social",
+          "_id": "6a82ff25e893825ac2572bab"
+        }
+      ],
+      "createdAt": "2026-08-17T12:07:27.727Z",
+      "updatedAt": "2026-08-18T13:31:40.242Z",
+      "ahrefsDomain": null,
+      "ahrefsDomainRatingLastSyncedAt": null,
+      "revenueLastSyncedAt": "2026-08-18T12:57:04.540Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:04.355Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "valueProposition": "Helps create and test ad creatives rapidly",
+        "problemSolved": "Cuts time to create ad creatives so brands can focus on testing and scaling.",
+        "pricingModel": "$$50 Base, $100 Pro",
+        "targetPersona": "Marketers, Ecommerce managers, Designers, Creative Strategists",
+        "misc": "used by 1000+ brands across the world , we are just 4 months old, growing super fast",
+        "businessType": "B2B",
+        "tags": [
+          "ai",
+          "marketing",
+          "ecommerce",
+          "content-creation"
+        ],
+        "fundingStatus": "Bootstrapped",
+        "teamSize": "2-5",
+        "estimatedUserCount": 815,
+        "updatedAt": "2026-08-17T12:17:40.258Z"
+      },
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "appStoreId": null,
+      "playStorePackageId": null,
+      "ahrefsDomainRatingError": null,
+      "listingAddonSponsorTagline": null,
+      "appStoreName": null,
+      "appStoreBundleId": null,
+      "appStoreSellerName": null,
+      "appStorePrimaryGenre": null,
+      "appStoreVersion": null,
+      "appStoreIcon": null,
+      "appStoreFormattedPrice": null,
+      "appStoreCurrency": null,
+      "appStoreReleaseDate": null,
+      "appStoreCurrentVersionReleaseDate": null,
+      "appStoreMetadataCountry": null,
+      "appStoreMetadataLastSyncedAt": null,
+      "appStoreMetadataError": null,
+      "playStoreName": null,
+      "playStoreMetadataLastSyncedAt": null,
+      "playStoreMetadataError": null,
+      "githubCodeStats": {},
+      "githubRevenuePerLineOfCodeLast30Days": null,
+      "githubMrrPerLineOfCode": null,
+      "githubLinesOfCodePerDollarTotalRevenue": null,
+      "githubLinesOfCodePerDollarLast30DaysRevenue": null,
+      "githubLinesOfCodePerDollarMrr": null,
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/makelocalads",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "IN",
+      "founderProfile": "https://trustmrr.com/founder/projektkush",
+      "founderTwitter": "https://x.com/projektkush"
+    },
+    "fetchMs": 255.100211,
+    "parseMs": 1.456795999999997
+  },
+  {
+    "startup": {
+      "_id": "6a82f6c9b48c4d3998bf38ce",
+      "name": "Sonora AI",
+      "icon": "https://www.appatar.io/ai.sonora/small",
+      "website": "https://apps.apple.com/app/id6633442363",
+      "isMobileApp": true,
+      "appStoreUrl": "https://apps.apple.com/us/app/id6633442363",
+      "appStoreCountry": "us",
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": 4.41667,
+      "appStoreRatingCount": 12,
+      "ahrefsDomainRating": null,
+      "description": "Fully Organic iOS App | 20+ Month-Old iOS App | $4450+/Month | $100K+ Lifetime Revenue | 100K+ Lifetime Users | 500+ Subscribers",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "bahrimelih",
+      "country": null,
+      "foundedDate": null,
+      "category": "Mobile App",
+      "paymentProvider": "revenuecat",
+      "revenuecatVerifiedSlug": "sonoraai",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 4604.11,
+      "currentMrr": 3773.62,
+      "currentLast30DaysRevenue": 4604.11,
+      "currentActiveSubscriptions": 186,
+      "slug": "sonora-ai",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 1921,
+      "xFounderName": "Melih Bahri AKTAN",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2012826643241353216/ug9OqMSV.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 1882,
+      "cachedGrowth30d": 0,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T12:10:55.216Z",
+        "valueProposition": "Create music with Sonora AI! Whether you're a beginner or a professional musician, Sonora AI inspires you to create the music of your dreams. No instruments needed—just bring your creativity.",
+        "problemSolved": "Provides a platform for users to create music without needing instruments, catering to both beginners and professional musicians.",
+        "pricingModel": "Free · In‑App Purchases",
+        "targetPersona": "Beginner or professional musicians",
+        "businessType": "B2C",
+        "tags": [
+          "ai",
+          "entertainment",
+          "content-creation"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/sonora-ai/1786968670688-c7f96da5-f768-4d7e-8240-769eebeef798-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T12:10:55.216Z",
+            "viewport": {
+              "width": 1920,
+              "height": 2000,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [],
+      "marketingChannels": [],
+      "createdAt": "2026-08-17T11:55:53.471Z",
+      "updatedAt": "2026-08-18T14:31:10.468Z",
+      "ahrefsDomain": "apple.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T11:55:54.136Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:08.421Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:08.565Z",
+      "targetAudience": "B2C",
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "rank": 1882,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/sonora-ai",
+      "tagLine": "Create music with Sonora AI! Whether you're a beginner or a professional musician, Sonora AI inspires you to create the music of your dreams. No instruments needed—just bring your creativity.",
+      "founded": "",
+      "location": "",
+      "founderProfile": "https://trustmrr.com/founder/bahrimelih",
+      "founderTwitter": "https://x.com/bahrimelih"
+    },
+    "fetchMs": 342.644786,
+    "parseMs": 0.847629999999981
+  },
+  {
+    "startup": {
+      "_id": "6a82eb422744bbb515d225fe",
+      "name": "Sailo",
+      "icon": "https://files.stripe.com/links/MDB8YWNjdF8xVTBrVzNST0hyQXNpZXJjfGZsX2xpdmVfVThIaGQxa0RZanJ4TDlIZGR5NmxTZ0R100zVxqiwXM",
+      "website": "https://sailo.store",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Sailo is a bio link store extension which is like linktree but it deploys a store, sailo has physical products, digital goods, we charge subscriptions for 9.99 and 19.99, sailo basically provides a store with link extension for any user, we dont process payments, users add stripe, paypal, cash on delivery, or any payment they want, we provide the software only",
+      "brandingPrimaryColor": "#ffffff",
+      "brandingSecondaryColor": "#009942",
+      "xHandle": "kal_33l",
+      "country": "US",
+      "foundedDate": "2026-08-04T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "sailo",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 89,
+      "xFounderName": "Kal.eel",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1869222567535591424/oew9hHcQ.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a82ec4ec464ef9f852bee94"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a82ec4ec464ef9f852bee95"
+        },
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a82ec4ec464ef9f852bee96"
+        },
+        {
+          "slug": "newsletter",
+          "category": "organic",
+          "_id": "6a82ec4ec464ef9f852bee97"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a82ec4ec464ef9f852bee98"
+        },
+        {
+          "slug": "facebook",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee99"
+        },
+        {
+          "slug": "instagram",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9a"
+        },
+        {
+          "slug": "linkedin",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9b"
+        },
+        {
+          "slug": "pinterest",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9c"
+        },
+        {
+          "slug": "reddit",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9d"
+        },
+        {
+          "slug": "threads",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9e"
+        },
+        {
+          "slug": "tiktok",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852bee9f"
+        },
+        {
+          "slug": "twitter",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852beea0"
+        },
+        {
+          "slug": "youtube",
+          "category": "social",
+          "_id": "6a82ec4ec464ef9f852beea1"
+        }
+      ],
+      "createdAt": "2026-08-17T11:06:42.372Z",
+      "updatedAt": "2026-08-18T13:31:40.243Z",
+      "ahrefsDomain": "sailo.store",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T11:06:43.100Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:03.551Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:03.428Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "ecommerce",
+          "content-creation",
+          "marketing",
+          "social-media"
+        ],
+        "pricingModel": "Free, Pro $19, Business $49",
+        "targetPersona": "Bloggers, Creators, UGC, Youtubers",
+        "businessType": "Both",
+        "fundingStatus": "Bootstrapped",
+        "misc": "Your link in the bio should be taking orders",
+        "updatedAt": "2026-08-17T11:11:10.233Z"
+      },
+      "userCategory": "E-commerce",
+      "userCategorySlug": "ecommerce",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/sailo",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "US",
+      "founderProfile": "https://trustmrr.com/founder/kal_33l",
+      "founderTwitter": "https://x.com/kal_33l"
+    },
+    "fetchMs": 351.351261,
+    "parseMs": 1.0666889999999967
+  },
+  {
+    "startup": {
+      "_id": "6a82e7a85224a7e2c69b0ba7",
+      "name": "Robomonkey",
+      "icon": "https://cdn.lemonsqueezy.com/design/173702/1a1a2c4d-1828-492c-852b-c78afb2b6cf7.png?fit=contain&format=auto&height=100&ixlib=php-3.3.1&width=100",
+      "website": "https://robomonkey.lemonsqueezy.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": null,
+      "description": "Chat with AI to build extensions, automations, and scrapers - no code required.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "arbelfs3",
+      "country": "IL",
+      "foundedDate": "2025-07-24T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "lemonsqueezy",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 1501.31,
+      "currentMrr": 74.03,
+      "currentLast30DaysRevenue": 114.79,
+      "currentActiveSubscriptions": 15,
+      "slug": "robomonkey",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 706,
+      "xFounderName": "Arbel I. | Building ⚡️",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1995571796121206786/UNFzp2Qv.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": 0,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 2725,
+      "cachedGrowth30d": -36.77572152456487,
+      "cachedGrowthMRR30d": -54.36068167922852,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T11:06:21.814Z",
+        "valueProposition": "",
+        "problemSolved": "",
+        "pricingModel": "$$0.00 - $49.99",
+        "targetPersona": "",
+        "businessType": "Unknown",
+        "tags": [],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/robomonkey/1786964807315-85e38353-aac6-4f40-b551-d315c1baa528-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T11:06:21.814Z",
+            "viewport": {
+              "width": 1920,
+              "height": 1080,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a82e806a5074f8f1f02b8d4"
+        },
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a82e806a5074f8f1f02b8d5"
+        },
+        {
+          "slug": "typescript",
+          "category": "frontend",
+          "_id": "6a82e806a5074f8f1f02b8d6"
+        },
+        {
+          "slug": "python",
+          "category": "backend",
+          "_id": "6a82e806a5074f8f1f02b8d7"
+        },
+        {
+          "slug": "langchain",
+          "category": "backend",
+          "_id": "6a82e806a5074f8f1f02b8d8"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "twitter",
+          "category": "social",
+          "_id": "6a82e806a5074f8f1f02b8d9"
+        },
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a82e806a5074f8f1f02b8da"
+        }
+      ],
+      "createdAt": "2026-08-17T10:51:20.681Z",
+      "updatedAt": "2026-08-18T14:31:10.468Z",
+      "ahrefsDomain": "lemonsqueezy.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T10:51:21.766Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:03.505Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:03.944Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "ai",
+          "developer-tools",
+          "fintech",
+          "no-code",
+          "productivity"
+        ],
+        "updatedAt": "2026-08-17T10:52:54.213Z"
+      },
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "rank": 2725,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/robomonkey",
+      "tagLine": "",
+      "founded": "2025",
+      "location": "IL",
+      "founderProfile": "https://trustmrr.com/founder/arbelfs3",
+      "founderTwitter": "https://x.com/arbelfs3"
+    },
+    "fetchMs": 369.193236,
+    "parseMs": 0.9699319999999716
+  },
+  {
+    "startup": {
+      "_id": "6a82e54676b909bd055b5c3b",
+      "name": "Minerva",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/minerva-b2bf3d62-ec6f-4d11-8865-84d31fdba15e.png",
+      "website": "https://minerva33.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Get real customers from LinkedIn",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "rafabenetton",
+      "country": "IT",
+      "foundedDate": "2025-11-25T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 817.217826295159,
+      "currentMrr": 173.67,
+      "currentLast30DaysRevenue": 128.668338608174,
+      "currentActiveSubscriptions": 3,
+      "slug": "minerva33",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 0,
+      "xFounderName": "Rafael Benetton",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2086068948051582976/r0gEvNHg.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": 80,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 3193,
+      "cachedGrowth30d": 122.00000000000004,
+      "cachedGrowthMRR30d": -91.19184538342974,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T11:04:58.103Z",
+        "valueProposition": "Minerva reads your meeting transcripts and turns them into LinkedIn posts that sound like you.",
+        "problemSolved": "72% of salespeople never post on LinkedIn because they do not know what to write.",
+        "pricingModel": "€50/user/month",
+        "targetPersona": "Sales teams and Agencies",
+        "businessType": "B2B",
+        "tags": [
+          "ai",
+          "productivity",
+          "saas",
+          "social-media",
+          "content-creation"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/minerva33/1786964726527-d735a058-d95e-43d8-bad6-432e16858435-landing-page.jpg",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T11:04:58.103Z",
+            "viewport": {
+              "width": 1920,
+              "height": 17159,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a82e7552744bbb515d220e0"
+        },
+        {
+          "slug": "postgresql",
+          "category": "backend",
+          "_id": "6a82e7552744bbb515d220e1"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a82e7552744bbb515d220e2"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a82e7552744bbb515d220e3"
+        },
+        {
+          "slug": "linkedin",
+          "category": "social",
+          "_id": "6a82e7552744bbb515d220e4"
+        },
+        {
+          "slug": "reddit",
+          "category": "social",
+          "_id": "6a82e7552744bbb515d220e5"
+        },
+        {
+          "slug": "cold-email",
+          "category": "outbound",
+          "_id": "6a82e7552744bbb515d220e6"
+        }
+      ],
+      "createdAt": "2026-08-17T10:41:10.056Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "minerva33.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T10:49:57.655Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:03.203Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:02.960Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "ai",
+          "marketing",
+          "saas",
+          "sales",
+          "content-creation"
+        ],
+        "valueProposition": "Automates content creation and leads generation without sounding AI-slop",
+        "problemSolved": "cuts manual prospecting time",
+        "pricingModel": "50$/month",
+        "targetPersona": "Sales Rep, Founders",
+        "businessType": "B2B",
+        "teamSize": "2-5",
+        "fundingStatus": "Bootstrapped",
+        "estimatedUserCount": 40,
+        "updatedAt": "2026-08-17T10:49:56.940Z"
+      },
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "targetAudience": "B2B",
+      "rank": 3193,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/minerva33",
+      "tagLine": "Minerva reads your meeting transcripts and turns them into LinkedIn posts that sound like you.",
+      "founded": "2025",
+      "location": "IT",
+      "founderProfile": "https://trustmrr.com/founder/rafabenetton",
+      "founderTwitter": "https://x.com/rafabenetton"
+    },
+    "fetchMs": 378.26239699999996,
+    "parseMs": 0.9554400000000101
+  },
+  {
+    "startup": {
+      "_id": "6a82e4f9a5074f8f1f02b3ef",
+      "name": "Paddle Business",
+      "icon": null,
+      "website": null,
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": null,
+      "description": null,
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": null,
+      "country": null,
+      "foundedDate": null,
+      "category": "Other",
+      "paymentProvider": "paddle",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "paddle-business-26",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": null,
+      "xFounderName": null,
+      "xProfilePicture": null,
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [],
+      "marketingChannels": [],
+      "createdAt": "2026-08-17T10:39:53.229Z",
+      "updatedAt": "2026-08-18T13:31:40.238Z",
+      "ahrefsDomain": null,
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T10:39:54.000Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:02.780Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:02.820Z",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/paddle-business-26",
+      "tagLine": "",
+      "founded": "",
+      "location": "",
+      "founderProfile": "",
+      "founderTwitter": ""
+    },
+    "fetchMs": 330.334779,
+    "parseMs": 0.9723480000000109
+  },
+  {
+    "startup": {
+      "_id": "6a82e0dd04ed2164ae81dd7f",
+      "name": "Fitkofer Calorie Tracker",
+      "icon": "https://www.appatar.io/com.fitkofer.app/small",
+      "website": "https://www.fitkofer.rs/brojac",
+      "isMobileApp": true,
+      "appStoreUrl": "https://apps.apple.com/us/app/id6758023371",
+      "appStoreCountry": "us",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.fitkofer.app",
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": 0,
+      "appStoreRatingCount": 0,
+      "ahrefsDomainRating": 0,
+      "description": "FitKofer is a calorie tracker for Serbian and Balkan foods, macros, barcode scanning and practical meal logging.\n\nTrack calories, protein, carbs and fat with food search, barcode scan, meal photo input, nutrition-label OCR and fast text entry. FitKofer is built for people who eat Serbian and Balkan meals and want a tracker that understands local foods, products, recipes and portions.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": null,
+      "country": null,
+      "foundedDate": "2026-03-04T00:00:00.000Z",
+      "category": "Mobile App",
+      "paymentProvider": "revenuecat",
+      "revenuecatVerifiedSlug": "fitkofer",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 133.26999999999998,
+      "currentMrr": 130.98,
+      "currentLast30DaysRevenue": 133.26999999999998,
+      "currentActiveSubscriptions": 30,
+      "slug": "fitkofer-calorie-tracker",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": null,
+      "xFounderName": null,
+      "xProfilePicture": null,
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 4659,
+      "cachedGrowth30d": 0,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T10:51:19.896Z",
+        "valueProposition": "Finally counting calories for the food you actually eat.",
+        "problemSolved": "Tracking calories for local Serbian dishes without guessing or translating.",
+        "pricingModel": "Annual: RSD 3,999 with a 7-day free trial, Monthly: RSD 499 with a 3-day free trial.",
+        "targetPersona": "Serbian speakers tracking calories for local foods.",
+        "businessType": "B2C",
+        "tags": [
+          "health-fitness",
+          "mobile-apps"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/fitkofer-calorie-tracker/1786963911602-c582a5f6-bf49-484e-93e2-beafca1b60f9-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T10:51:19.896Z",
+            "viewport": {
+              "width": 1920,
+              "height": 5364,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "reactnative",
+          "category": "frontend",
+          "_id": "6a83072e81d6ab9168d53f1f"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a83072e81d6ab9168d53f20"
+        },
+        {
+          "slug": "instagram",
+          "category": "social",
+          "_id": "6a83072e81d6ab9168d53f21"
+        }
+      ],
+      "createdAt": "2026-08-17T10:22:21.991Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "revenueLastSyncedAt": "2026-08-18T12:57:07.316Z",
+      "mrrLastSyncedAt": "2026-08-18T12:57:07.860Z",
+      "ahrefsDomain": "fitkofer.rs",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T10:36:19.581Z",
+      "playStoreMetadataCountry": "us",
+      "startupInsightOverrides": {
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "estimatedUserCount": 30,
+        "updatedAt": "2026-08-17T11:28:49.681Z"
+      },
+      "targetAudience": "B2C",
+      "userCategory": "Health & Fitness",
+      "userCategorySlug": "health-fitness",
+      "rank": 4659,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/fitkofer-calorie-tracker",
+      "tagLine": "Finally counting calories for the food you actually eat.",
+      "founded": "2026",
+      "location": "",
+      "founderProfile": "",
+      "founderTwitter": ""
+    },
+    "fetchMs": 363.568178,
+    "parseMs": 0.9845109999999977
+  },
+  {
+    "startup": {
+      "_id": "6a82daa41a63bbf42bc8d90f",
+      "name": "ContinuumNexus",
+      "icon": "https://files.stripe.com/links/MDB8YWNjdF8xVDVQR3c4ZDUzYThUTm14fGZsX2xpdmVfd3F6emdEeWRSOEc0MUFzc3BrRDVQR1dZ00KXjfnRQo",
+      "website": "https://continuumnexus.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 5,
+      "description": "Continuum is a cloud-native API monitoring and observability platform built for modern engineering teams. \n\nBeyond simple ping checks, Continuum executes multi-step HTTP scenarios, validates complex JSON response payloads with deep assertions, and tracks latency across 7 global regions. \n\nGet instant, zero-false-positive alerts via email, Slack, and webhooks before your customers notice API outages.",
+      "brandingPrimaryColor": "#000000",
+      "brandingSecondaryColor": "#16334b",
+      "xHandle": "florisnexus",
+      "country": "BE",
+      "foundedDate": "2026-02-27T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "continuumnexus",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 753,
+      "xFounderName": "FlorisNexus",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2017239528981909504/Qc2_Xnvr.png",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": 2,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "dotnet",
+          "category": "backend",
+          "_id": "6a82dd7a1a63bbf42bc8dade"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "twitter",
+          "category": "social",
+          "_id": "6a82dd7a1a63bbf42bc8dadf"
+        },
+        {
+          "slug": "cold-email",
+          "category": "outbound",
+          "_id": "6a82dd7a1a63bbf42bc8dae0"
+        },
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a82dd7a1a63bbf42bc8dae1"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a82dd7a1a63bbf42bc8dae2"
+        }
+      ],
+      "createdAt": "2026-08-17T09:55:48.553Z",
+      "updatedAt": "2026-08-18T13:31:40.236Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:23.727Z",
+      "ahrefsDomain": "continuumnexus.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T09:55:49.517Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:23.856Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "saas",
+          "utilities"
+        ],
+        "valueProposition": "Beyond Simple Ping Checks: Validates functional API correctness, header states, and complex payload structures, not just HTTP 200 OK statuses.",
+        "problemSolved": "Silent API Breakages: Basic uptime monitors miss broken JSON payloads, schema drifts, and semantic errors when endpoints still return a generic 200 OK.",
+        "pricingModel": "Hobby (Free), Starter ($9 / month), Pro ($29 / month)",
+        "targetPersona": "Backend & API Engineers, Devops/SRE Teams, SaaS Founders & Tech Leads",
+        "businessType": "Both",
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "misc": "Category: Developer Tools / API Monitoring / Cloud Observability / SaaS • Website: https://continuumnexus.com • Tech Stack: .NET 10, ASP.NET Core Blazor, Azure Serverless Architecture (Isolated Functions, Azure SQL, Service Bus), Stripe Billing. • Key Integrations: Webhooks, Email alerts, Sla",
+        "updatedAt": "2026-08-17T10:07:53.939Z"
+      },
+      "userCategory": "SaaS",
+      "userCategorySlug": "saas",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": true,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": true,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/continuumnexus",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "BE",
+      "founderProfile": "https://trustmrr.com/founder/florisnexus",
+      "founderTwitter": "https://x.com/florisnexus"
+    },
+    "fetchMs": 139.60782700000001,
+    "parseMs": 0.9915589999999952
+  },
+  {
+    "startup": {
+      "_id": "6a82d891f90b6efc3a5c0abe",
+      "name": "Newzly",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/newzly-84791d06-c5c2-4ebe-8f1f-18fb5dc39e0a.png",
+      "website": "https://www.newzly.app",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Newzly turns one line about your day into a newspaper front page.\n\nType something that actually happened — \"my roommate ate my leftovers\" — and it comes back written up and typeset: masthead, headline, byline, dateline, columns, drop cap. The joke is the collision. A trivial Tuesday gets the full gravity of front-page typography, and nothing winks at you.\n\nFollow friends and family and read what they filed. Send an edition to the group chat as a link anyone can open without signing up.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": null,
+      "country": null,
+      "foundedDate": "2026-08-10T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "dodopayment",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "newzly",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": null,
+      "xFounderName": null,
+      "xProfilePicture": null,
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": 0,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": null,
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a82da171ef30b1fc37a5325"
+        },
+        {
+          "slug": "resend",
+          "category": "backend",
+          "_id": "6a82da171ef30b1fc37a5326"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "tiktok",
+          "category": "social",
+          "_id": "6a82da171ef30b1fc37a5327"
+        },
+        {
+          "slug": "youtube",
+          "category": "social",
+          "_id": "6a82da171ef30b1fc37a5328"
+        },
+        {
+          "slug": "instagram",
+          "category": "social",
+          "_id": "6a82da171ef30b1fc37a5329"
+        }
+      ],
+      "createdAt": "2026-08-17T09:46:57.450Z",
+      "updatedAt": "2026-08-18T13:31:40.275Z",
+      "ahrefsDomain": "newzly.app",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T09:53:28.144Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:23.740Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:24.070Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "social-media",
+          "ai"
+        ],
+        "valueProposition": "A close network focused social media without the depths of algorithm, allowing users to share their moments with their close ones in just a few seconds in a neat format.",
+        "problemSolved": "Allows people to share their day with their loved ones in a way never before!",
+        "pricingModel": "6.99$ Premium",
+        "targetPersona": "GenZ, Millenials",
+        "businessType": "B2C",
+        "teamSize": "1",
+        "updatedAt": "2026-08-17T09:53:27.257Z"
+      },
+      "userCategory": "Social Media",
+      "userCategorySlug": "social-media",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/newzly",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "",
+      "founderProfile": "",
+      "founderTwitter": ""
+    },
+    "fetchMs": 110.66150799999997,
+    "parseMs": 0.9369209999999839
+  },
+  {
+    "startup": {
+      "_id": "6a82d0bd2e1c254face76d0e",
+      "name": "Prompt Reverse",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/promptreverse-96d188af-9e21-4604-b880-552e4985f1ec.png",
+      "website": "https://promptreverse.app",
+      "isMobileApp": true,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 1,
+      "description": "Get the prompt behind any image or video, make it yours, and create with a full studio of AI image and video tools. Ready-made workflows take you from upload to finished asset.",
+      "brandingPrimaryColor": "#6b7280",
+      "brandingSecondaryColor": "#9ca3af",
+      "xHandle": "manibharij",
+      "country": "GB",
+      "foundedDate": "2026-01-08T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 321.34,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 85,
+      "currentActiveSubscriptions": 0,
+      "slug": "promptreverse",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 984,
+      "xFounderName": "Mani",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2021316446106902528/-rwu6ekW.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": "2026-08-17T09:54:08.686Z",
+      "askingPrice": null,
+      "askingPriceHistory": [
+        {
+          "price": 3500,
+          "createdAt": "2026-08-17T10:19:25.312Z",
+          "_id": "6a82e02d1c0c80fc79e50f18"
+        },
+        {
+          "price": null,
+          "createdAt": "2026-08-17T12:46:46.491Z",
+          "_id": "6a8302b6708eeee70819baa9"
+        }
+      ],
+      "profitMarginLast30Days": 42,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 3916,
+      "cachedGrowth30d": 63.46153846153846,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": 5.833333333333333,
+      "cachedUniquePageviews": 78,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-18T13:53:29.044Z",
+        "valueProposition": "Stop prompting from scratch. Get the prompt behind any image or video, make it yours, and create with a full studio of AI image and video tools.",
+        "problemSolved": "Reverse-engineer any image or video into the exact prompt behind it, allowing creators to save time and enhance creativity.",
+        "pricingModel": "Pay as you go",
+        "targetPersona": "AI Artists & Designers, Content Creators & Marketers, Agencies & Freelancers",
+        "businessType": "B2C",
+        "tags": [
+          "ai",
+          "content-creation",
+          "design-tools",
+          "saas",
+          "marketing"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/promptreverse/1787061247530-a1c19ecf-9d59-490c-959b-925b20193219-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-18T13:53:29.044Z",
+            "viewport": {
+              "width": 1920,
+              "height": 12244,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": 1207,
+      "revenuePerVisitorLast30Days": 0.0704,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a8464db3a0cd4d7188c1b21"
+        },
+        {
+          "slug": "tailwindcss",
+          "category": "frontend",
+          "_id": "6a8464db3a0cd4d7188c1b22"
+        },
+        {
+          "slug": "typescript",
+          "category": "frontend",
+          "_id": "6a8464db3a0cd4d7188c1b23"
+        },
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b24"
+        },
+        {
+          "slug": "express",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b25"
+        },
+        {
+          "slug": "cloudflare",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b26"
+        },
+        {
+          "slug": "gcp",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b27"
+        },
+        {
+          "slug": "postgresql",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b28"
+        },
+        {
+          "slug": "openai",
+          "category": "backend",
+          "_id": "6a8464db3a0cd4d7188c1b29"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a8464db3a0cd4d7188c1b2a"
+        }
+      ],
+      "createdAt": "2026-08-17T09:13:33.175Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "promptreverse.app",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-18T13:38:28.776Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:23.558Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:24.996Z",
+      "targetAudience": "B2C",
+      "userCategory": "Design Tools",
+      "userCategorySlug": "design-tools",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "design-tools",
+          "developer-tools"
+        ],
+        "valueProposition": "Turns any image or video into the prompt that created it, then generates your own variations from it. 120+ AI image and video tools on one pay-as-you-go account.",
+        "problemSolved": "",
+        "pricingModel": "Pay-as-you-go credit packs, no subscription. $1 Trial, $5 Mini, $15 Creator, $39 Pro, $79 Studio. Credits never expire.",
+        "targetPersona": "Content creators, marketing freelancers and agencies, e-commerce and print-on-de",
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "misc": "10.5k monthly visitors, predominantly organic Google traffic, healthy SEO profile. Product: 120+ live tools and 93 guided multi-step workflows across image and video generation, editing, and analysis.",
+        "updatedAt": "2026-08-17T09:40:52.282Z"
+      },
+      "rank": 3916,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/promptreverse",
+      "tagLine": "Stop prompting from scratch. Get the prompt behind any image or video, make it yours, and create with a full studio of AI image and video tools.",
+      "founded": "2026",
+      "location": "GB",
+      "founderProfile": "https://trustmrr.com/founder/manibharij",
+      "founderTwitter": "https://x.com/manibharij"
+    },
+    "fetchMs": 122.11627400000003,
+    "parseMs": 1.074707999999987
+  },
+  {
+    "startup": {
+      "_id": "6a82d058d60c20829fd955f2",
+      "name": "Eten: Meal Planner & Recipes",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/eten-meal-planner-recipes-79a0f9fc-879c-4b27-92c3-06a931fcaf39.png",
+      "website": "https://etenapp.com",
+      "isMobileApp": true,
+      "appStoreUrl": "https://apps.apple.com/us/app/id6761407978",
+      "appStoreCountry": "us",
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": 0,
+      "appStoreRatingCount": 0,
+      "ahrefsDomainRating": 10,
+      "description": "Plan your week's meals in minutes. Auto-generate your grocery list. Cook with confidence every night. Your kitchen routine, simplified.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "radomir_3",
+      "country": null,
+      "foundedDate": "2026-06-01T00:00:00.000Z",
+      "category": "Mobile App",
+      "paymentProvider": "revenuecat",
+      "revenuecatVerifiedSlug": "eten",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 52.89,
+      "currentMrr": 13.87,
+      "currentLast30DaysRevenue": 52.89,
+      "currentActiveSubscriptions": 6,
+      "slug": "eten-meal-planner-recipes",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 302,
+      "xFounderName": "RadomirD",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1761882576346648576/veM0pDGU.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 5394,
+      "cachedGrowth30d": 0,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T09:32:37.908Z",
+        "valueProposition": "Import any recipe from the web, plan your week, and generate grocery lists in seconds.",
+        "problemSolved": "No more 'what's for dinner?' stress.",
+        "pricingModel": "Free: import up to 7 recipes per week, Pro: unlimited recipe imports",
+        "targetPersona": "home cooks",
+        "businessType": "B2C",
+        "tags": [
+          "mobile-apps",
+          "productivity",
+          "health-fitness"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/eten-meal-planner-recipes/1786959188353-acc74aac-fd47-4398-b08a-44cb78e1f8c9-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T09:32:37.908Z",
+            "viewport": {
+              "width": 1920,
+              "height": 6753,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "expo",
+          "category": "frontend",
+          "_id": "6a82d2912e1c254face774b7"
+        },
+        {
+          "slug": "supabase",
+          "category": "backend",
+          "_id": "6a82d2912e1c254face774b8"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "tiktok",
+          "category": "social",
+          "_id": "6a82d2912e1c254face774b9"
+        }
+      ],
+      "createdAt": "2026-08-17T09:11:52.440Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "etenapp.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T09:17:38.225Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:27.323Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:27.379Z",
+      "startupInsightOverrides": {
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "updatedAt": "2026-08-17T09:13:02.458Z"
+      },
+      "playStoreMetadataCountry": null,
+      "targetAudience": "B2C",
+      "userCategory": "Mobile Apps",
+      "userCategorySlug": "mobile-apps",
+      "rank": 5394,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/eten-meal-planner-recipes",
+      "tagLine": "Import any recipe from the web, plan your week, and generate grocery lists in seconds.",
+      "founded": "2026",
+      "location": "",
+      "founderProfile": "https://trustmrr.com/founder/radomir_3",
+      "founderTwitter": "https://x.com/radomir_3"
+    },
+    "fetchMs": 158.20852000000002,
+    "parseMs": 1.2033320000000458
+  },
+  {
+    "startup": {
+      "_id": "6a82c7605510dca80d89a99e",
+      "name": "Comik AI",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/quorlight-llc-53f738bc-a0c0-4676-918f-13a97034b4c7.png",
+      "website": "https://comik.ai",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 2,
+      "description": "Comik AI is a story-driven AI anime creation platform for creating anime images, reusable characters, video shots, motion comics, and animated shorts. Start with a prompt, script, or reference image, direct each shot in a storyboard, and assemble the final cut in Drama Studio.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "brucetancatcher",
+      "country": "HK",
+      "foundedDate": "2026-05-19T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 34.12,
+      "currentMrr": 35.7,
+      "currentLast30DaysRevenue": 28.56,
+      "currentActiveSubscriptions": 3,
+      "slug": "quorlight-llc",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 170,
+      "xFounderName": "Bruce Tan",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2006128282874630144/-OfrjCoc.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 5691,
+      "cachedGrowth30d": 413.66906474820144,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T08:48:37.130Z",
+        "valueProposition": "Create anime images and videos, keep characters consistent across scenes, use reference images to shape each shot, and bring complete anime stories to life in Drama Studio.",
+        "problemSolved": "Turn prompts, images, characters, or storyboard frames into anime video shots, with control over motion, timing, and camera movement.",
+        "pricingModel": "Free: 10 credits upon sign-up, with Free Access models available.",
+        "targetPersona": "Anime creators, manga artists, and storytellers",
+        "businessType": "B2C",
+        "tags": [
+          "ai",
+          "content-creation",
+          "entertainment",
+          "design-tools",
+          "games"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/quorlight-llc/1786956553219-28e7fec7-fac7-4858-8915-fc0dc1f4d7d7-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T08:48:37.130Z",
+            "viewport": {
+              "width": 1920,
+              "height": 8290,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [],
+      "marketingChannels": [],
+      "createdAt": "2026-08-17T08:33:36.748Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:22.919Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:23.075Z",
+      "ahrefsDomain": "comik.ai",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T08:33:38.049Z",
+      "playStoreMetadataCountry": null,
+      "targetAudience": "B2C",
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "rank": 5691,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": true,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/quorlight-llc",
+      "tagLine": "Create anime images and videos, keep characters consistent across scenes, use reference images to shape each shot, and bring complete anime stories to life in Drama Studio.",
+      "founded": "2026",
+      "location": "HK",
+      "founderProfile": "https://trustmrr.com/founder/brucetancatcher",
+      "founderTwitter": "https://x.com/brucetancatcher"
+    },
+    "fetchMs": 102.13923399999999,
+    "parseMs": 0.9333280000000173
+  },
+  {
+    "startup": {
+      "_id": "6a82c308bccbe4f91506948e",
+      "name": "TikBreak",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/agency-97f6aafd-4ba1-47b1-880c-929a8cfd0553.png",
+      "website": "https://tikbreak.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 11,
+      "description": "Turn winning TikToks into original scripts.\nPaste a competitor TikTok or upload a reference clip. TikBreak extracts the selling structure and writes the next brief around your product.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "mil0r0",
+      "country": "US",
+      "foundedDate": "2026-05-01T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "creem",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 0,
+      "currentMrr": 0,
+      "currentLast30DaysRevenue": 0,
+      "currentActiveSubscriptions": 0,
+      "slug": "tik-break",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 58,
+      "xFounderName": "Mil0R",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2059062405557317632/gUwHG4-B.jpg",
+      "onSale": true,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": "2026-08-17T08:44:10.858Z",
+      "askingPrice": 800,
+      "askingPriceHistory": [
+        {
+          "price": 800,
+          "createdAt": "2026-08-17T08:45:09.477Z",
+          "_id": "6a82ca15c98b4a50aaf4ccc4"
+        }
+      ],
+      "profitMarginLast30Days": 50,
+      "sellerMessage": "This product has been available for two months, during which time 65 users have tried it out and parsed more than 70 TikTok videos. If you're interested, please send me your quote. I can also provide ongoing technical support.",
+      "requireKycForOffers": false,
+      "cachedRank": null,
+      "cachedGrowth30d": null,
+      "cachedGrowthMRR30d": null,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 38,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": null,
+        "tags": [],
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": 142,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a82cbda2e5a53aa83c1369e"
+        },
+        {
+          "slug": "postgresql",
+          "category": "backend",
+          "_id": "6a82cbda2e5a53aa83c1369f"
+        },
+        {
+          "slug": "redis",
+          "category": "backend",
+          "_id": "6a82cbda2e5a53aa83c136a0"
+        },
+        {
+          "slug": "openai",
+          "category": "backend",
+          "_id": "6a82cbda2e5a53aa83c136a1"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a82cbda2e5a53aa83c136a2"
+        },
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a82cbda2e5a53aa83c136a3"
+        }
+      ],
+      "createdAt": "2026-08-17T08:15:04.302Z",
+      "updatedAt": "2026-08-18T14:45:30.179Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:22.847Z",
+      "ahrefsDomain": "tikbreak.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T08:32:56.274Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:22.903Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "ai",
+          "marketing",
+          "saas",
+          "content-creation"
+        ],
+        "valueProposition": "A research bench for product videos.",
+        "problemSolved": "TikBreak turns reference clips into reusable creative direction: what the video sells, how it proves the claim, and what your team should shoot next.",
+        "pricingModel": "$$19(Starter), $19(Growth), $149(Agency)",
+        "targetPersona": "TikTok Shop sellers, ecommerce operators, UGC teams, paid media teams",
+        "businessType": "B2C",
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "misc": "This product has been available for two months, during which time 65 users have tried it out and parsed more than 70 TikTok videos. If you're interested, please send me your quote. I can also provide ongoing technical support.",
+        "estimatedUserCount": 65,
+        "updatedAt": "2026-08-17T08:39:06.101Z"
+      },
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "rank": null,
+      "hasDatafast": false,
+      "hasGA": true,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/tik-break",
+      "tagLine": "",
+      "founded": "2026",
+      "location": "US",
+      "founderProfile": "https://trustmrr.com/founder/mil0r0",
+      "founderTwitter": "https://x.com/mil0r0"
+    },
+    "fetchMs": 59.221878000000004,
+    "parseMs": 1.0171550000000025
+  },
+  {
+    "startup": {
+      "_id": "6a82b0ff90028d8182918ee8",
+      "name": "Bilgim AI",
+      "icon": "https://files.stripe.com/links/MDB8YWNjdF8xU3BWZmpRU2JIS2tGWHpZfGZsX2xpdmVfZm43d2NkQndiQzFlUU82YmdhdlZFbGp0007FWNfxpf",
+      "website": "https://bilgim.ai",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 0,
+      "description": "Production-grade AI photo generation, 4000+ curated presets, 35+ models with automatic fallback, Stripe billing, 70% margins. Zero marketing done. The growth is yours to capture.",
+      "brandingPrimaryColor": "#01244c",
+      "brandingSecondaryColor": "#e8f2fc",
+      "xHandle": null,
+      "country": "US",
+      "foundedDate": "2026-01-14T00:00:00.000Z",
+      "category": "Software",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 295.99,
+      "currentMrr": 58,
+      "currentLast30DaysRevenue": 58,
+      "currentActiveSubscriptions": 4,
+      "slug": "bilgim-labs-llc",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": null,
+      "xFounderName": null,
+      "xProfilePicture": null,
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [
+        {
+          "price": 13000,
+          "createdAt": "2026-08-17T06:58:07.410Z",
+          "_id": "6a82b0ff90028d8182918ee9"
+        },
+        {
+          "price": null,
+          "createdAt": "2026-08-17T07:06:00.018Z",
+          "_id": "6a82b2d804608cff4eb5ef40"
+        }
+      ],
+      "profitMarginLast30Days": 70,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 3987,
+      "cachedGrowth30d": 0,
+      "cachedGrowthMRR30d": 0,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T07:01:11.592Z",
+        "valueProposition": "Create stunning images with GPT Image 2",
+        "problemSolved": "Create a photoshoot from a single photo",
+        "pricingModel": "",
+        "targetPersona": "",
+        "businessType": "Unknown",
+        "tags": [
+          "ai",
+          "content-creation",
+          "design-tools"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/bilgim-labs-llc/1786950103566-2fce0f95-1562-48dd-b7aa-303936586d3a-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T07:01:11.592Z",
+            "viewport": {
+              "width": 1920,
+              "height": 3539,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a82b48ee45f986c5ad65f4b"
+        },
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a82b48ee45f986c5ad65f4c"
+        },
+        {
+          "slug": "mongodb",
+          "category": "backend",
+          "_id": "6a82b48ee45f986c5ad65f4d"
+        },
+        {
+          "slug": "stripe",
+          "category": "backend",
+          "_id": "6a82b48ee45f986c5ad65f4e"
+        }
+      ],
+      "marketingChannels": [],
+      "createdAt": "2026-08-17T06:58:07.414Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "bilgim.ai",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T06:58:08.113Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:23.271Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:22.941Z",
+      "userCategory": "Artificial Intelligence",
+      "userCategorySlug": "ai",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "teamSize": "1",
+        "updatedAt": "2026-08-17T07:06:00.019Z"
+      },
+      "rank": 3987,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/bilgim-labs-llc",
+      "tagLine": "Create stunning images with GPT Image 2",
+      "founded": "2026",
+      "location": "US",
+      "founderProfile": "",
+      "founderTwitter": ""
+    },
+    "fetchMs": 105.070088,
+    "parseMs": 1.02257800000001
+  },
+  {
+    "startup": {
+      "_id": "6a82afca90028d8182918a18",
+      "name": "linkutm",
+      "icon": "https://d21oz30g4w22sz.cloudfront.net/logos/wabot-b2bd51df-ee35-4164-bd8d-d07582e3b129.png",
+      "website": "https://linkutm.com",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 26,
+      "description": "linkutm is a UTM link and Branded link management tool for marketing teams. Build clean UTM links, shorten them with your own brand domain, and track every click in one place.\n\nMost teams have the same problem. People use different UTM names for the same campaign. GA4 reports get messy. Links get lost in Google Sheets. linkutm fixes this.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "smitvanani06",
+      "country": "IN",
+      "foundedDate": null,
+      "category": "Other",
+      "paymentProvider": "dodopayment",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 108.01794258683759,
+      "currentMrr": 38,
+      "currentLast30DaysRevenue": 40.152453388188746,
+      "currentActiveSubscriptions": 2,
+      "slug": "linkutm",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 145,
+      "xFounderName": "Smit Vanani",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2009997565559996416/L5M59b7z.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 4800,
+      "cachedGrowth30d": -15.876664943189011,
+      "cachedGrowthMRR30d": -32.142857142857146,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T07:02:15.943Z",
+        "valueProposition": "Campaign links your GA4 reports can finally trust.",
+        "problemSolved": "Spreadsheet UTMs, inconsistent naming, ugly links that no one trusts. Your tracking stack is held together with duct tape.",
+        "pricingModel": "Free plan: 25 links a month. No credit card required.",
+        "targetPersona": "Agencies, SaaS Companies, Ecommerce, PPC and Paid Ads, SEO Teams, Email Marketing",
+        "businessType": "B2B",
+        "tags": [
+          "marketing",
+          "analytics",
+          "saas"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/linkutm/1786950179077-4b290cbb-7724-465a-a0e9-30aa011868dd-landing-page.webp",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T07:02:15.943Z",
+            "viewport": {
+              "width": 1920,
+              "height": 15031,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": 297,
+      "revenuePerVisitorLast30Days": 0.1352,
+      "cofounders": [
+        {
+          "xHandle": "bhargav4892",
+          "xName": "Bhargav Dhameliya",
+          "xFollowerCount": 29,
+          "xProfilePicture": "https://pbs.twimg.com/profile_images/1884158512609312768/NFI5uTxA.jpg",
+          "_id": "6a82b14c2e607cdb76a61914"
+        }
+      ],
+      "techStack": [
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a82b14b2e607cdb76a618fe"
+        },
+        {
+          "slug": "postgresql",
+          "category": "backend",
+          "_id": "6a82b14b2e607cdb76a618ff"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "content-marketing",
+          "category": "organic",
+          "_id": "6a82b14b2e607cdb76a61900"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a82b14b2e607cdb76a61901"
+        },
+        {
+          "slug": "newsletter",
+          "category": "organic",
+          "_id": "6a82b14b2e607cdb76a61902"
+        },
+        {
+          "slug": "blog",
+          "category": "organic",
+          "_id": "6a82b14b2e607cdb76a61903"
+        },
+        {
+          "slug": "facebook",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61904"
+        },
+        {
+          "slug": "linkedin",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61905"
+        },
+        {
+          "slug": "pinterest",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61906"
+        },
+        {
+          "slug": "reddit",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61907"
+        },
+        {
+          "slug": "threads",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61908"
+        },
+        {
+          "slug": "tiktok",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a61909"
+        },
+        {
+          "slug": "twitter",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a6190a"
+        },
+        {
+          "slug": "youtube",
+          "category": "social",
+          "_id": "6a82b14b2e607cdb76a6190b"
+        },
+        {
+          "slug": "google-ads",
+          "category": "paid",
+          "_id": "6a82b14b2e607cdb76a6190c"
+        },
+        {
+          "slug": "meta-ads",
+          "category": "paid",
+          "_id": "6a82b14b2e607cdb76a6190d"
+        }
+      ],
+      "createdAt": "2026-08-17T06:52:58.251Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "linkutm.com",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T06:58:29.183Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:23.263Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:23.367Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "analytics",
+          "marketing",
+          "saas",
+          "utilities"
+        ],
+        "valueProposition": "UTM link management, branded short links, QR codes, and click analytics in one platform.",
+        "problemSolved": "Helps marketing teams avoid messy UTM tracking, inconsistent campaign naming, generic short links, and manual spreadsheet work.",
+        "pricingModel": "Free plan available. Paid plans start at $9/month, with Growth at $29/month and Agency at $79/month. Enterprise pricing is custom",
+        "targetPersona": "Marketing teams, digital agencies, SaaS companies, ecommerce brands, SEO/PPC tea",
+        "businessType": "Both",
+        "teamSize": "6-10",
+        "fundingStatus": "Bootstrapped",
+        "misc": "UTM Builder, UTM templates and naming rules, branded short links, custom domains, dynamic QR codes, real-time click analytics, GA4-ready tracking, team workspaces, link protection, custom link previews, REST API, and Chrome extension. Free plan available with no credit card required.",
+        "estimatedUserCount": 267,
+        "updatedAt": "2026-08-17T06:58:28.470Z"
+      },
+      "userCategory": "Analytics",
+      "userCategorySlug": "analytics",
+      "targetAudience": "B2B",
+      "rank": 4800,
+      "hasDatafast": false,
+      "hasGA": true,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/linkutm",
+      "tagLine": "Campaign links your GA4 reports can finally trust.",
+      "founded": "",
+      "location": "IN",
+      "founderProfile": "https://trustmrr.com/founder/smitvanani06",
+      "founderTwitter": "https://x.com/smitvanani06"
+    },
+    "fetchMs": 112.82505400000002,
+    "parseMs": 0.8325649999999314
+  },
+  {
+    "startup": {
+      "_id": "6a829c94ff9a3fa6c731d981",
+      "name": "TapTax",
+      "icon": null,
+      "website": "https://taptax.co.uk",
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": 10,
+      "description": "TapTax is a Making Tax Digital app for UK sole traders and landlords. From April 2026 HMRC requires self-employed people earning over £50,000 to keep digital records and file quarterly updates through MTD-compatible software. TapTax connects your bank, categorises transactions with AI, scans receipts, and prepares your quarterly updates and final declaration from your phone. Built for people who are not accountants. Free to start, Starter 4.99 a month, Pro 9.99 a month.",
+      "brandingPrimaryColor": null,
+      "brandingSecondaryColor": null,
+      "xHandle": "laz_inc",
+      "country": "GB",
+      "foundedDate": "2026-02-24T00:00:00.000Z",
+      "category": "Apps",
+      "paymentProvider": "stripe",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 209.66838970014103,
+      "currentMrr": 60.77,
+      "currentLast30DaysRevenue": 54.107971535520264,
+      "currentActiveSubscriptions": 9,
+      "slug": "taptax",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 879,
+      "xFounderName": "Solomon",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/1697052688523866112/k7W8RuSY.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": null,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 4280,
+      "cachedGrowth30d": -11.111111111111112,
+      "cachedGrowthMRR30d": -0.1755054950746382,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "lastEnrichedAt": "2026-08-17T05:46:02.008Z",
+        "valueProposition": "Making Tax Digital, finally done in a tap.",
+        "problemSolved": "Self Assessment shouldn't mean a shoebox and a January panic.",
+        "pricingModel": "Free: £0/forever, Starter: £4.99/mo, Pro: £9.99/mo, Reviewed: £14.99/mo",
+        "targetPersona": "UK sole traders",
+        "businessType": "B2C",
+        "tags": [
+          "fintech",
+          "saas",
+          "productivity"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "",
+        "estimatedUserCount": null,
+        "screenshots": [
+          {
+            "url": "https://d21oz30g4w22sz.cloudfront.net/startup-screenshots/taptax/1786945592156-26da9de4-7b9f-4d9e-ae4c-9f2d37ffaa05-landing-page.jpg",
+            "label": "Landing page",
+            "capturedAt": "2026-08-17T05:46:02.008Z",
+            "viewport": {
+              "width": 1920,
+              "height": 20109,
+              "scrollY": 0
+            }
+          }
+        ]
+      },
+      "trafficLast30Days": null,
+      "revenuePerVisitorLast30Days": null,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106304"
+        },
+        {
+          "slug": "react",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106305"
+        },
+        {
+          "slug": "reactnative",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106306"
+        },
+        {
+          "slug": "expo",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106307"
+        },
+        {
+          "slug": "typescript",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106308"
+        },
+        {
+          "slug": "tailwindcss",
+          "category": "frontend",
+          "_id": "6a82a068dfa5696478106309"
+        },
+        {
+          "slug": "express",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630a"
+        },
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630b"
+        },
+        {
+          "slug": "supabase",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630c"
+        },
+        {
+          "slug": "postgresql",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630d"
+        },
+        {
+          "slug": "stripe",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630e"
+        },
+        {
+          "slug": "anthropic",
+          "category": "backend",
+          "_id": "6a82a068dfa569647810630f"
+        },
+        {
+          "slug": "cloudflare",
+          "category": "backend",
+          "_id": "6a82a068dfa5696478106310"
+        },
+        {
+          "slug": "railway",
+          "category": "backend",
+          "_id": "6a82a068dfa5696478106311"
+        }
+      ],
+      "marketingChannels": [],
+      "createdAt": "2026-08-17T05:31:00.859Z",
+      "updatedAt": "2026-08-18T14:31:10.471Z",
+      "ahrefsDomain": "taptax.co.uk",
+      "ahrefsDomainRatingLastSyncedAt": "2026-08-17T05:31:01.779Z",
+      "mrrLastSyncedAt": "2026-08-18T12:56:32.294Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:30.980Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "fintech",
+          "saas",
+          "mobile-apps",
+          "ai"
+        ],
+        "valueProposition": "Quarterly Making Tax Digital updates prepared from your phone, with no accounting knowledge needed.",
+        "problemSolved": "From April 2026 UK sole traders and landlords must keep digital records and send HMRC quarterly updates. Most have no accountant and no software that fits how they actually work.",
+        "pricingModel": "Free tier. Starter 4.99 a month or 49 a year. Pro 9.99 a month or 99 a year. All GBP.",
+        "targetPersona": "UK sole traders and landlords: tradespeople, drivers, couriers, freelancers and",
+        "businessType": "B2C",
+        "teamSize": "1",
+        "misc": "Mobile-first, native iOS and Android apps. UK GDPR compliant. Connects to HMRC by OAuth only, so we never store HMRC sign-in details, and access tokens are encrypted at rest with AES-256-GCM.",
+        "updatedAt": "2026-08-17T05:42:51.988Z"
+      },
+      "userCategory": "Fintech",
+      "userCategorySlug": "fintech",
+      "targetAudience": "B2C",
+      "rank": 4280,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": false,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": true,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/taptax",
+      "tagLine": "Making Tax Digital, finally done in a tap.",
+      "founded": "2026",
+      "location": "GB",
+      "founderProfile": "https://trustmrr.com/founder/laz_inc",
+      "founderTwitter": "https://x.com/laz_inc"
+    },
+    "fetchMs": 115.22439600000001,
+    "parseMs": 1.1478939999999511
+  },
+  {
+    "startup": {
+      "_id": "6a828abd626b6e3051efe24b",
+      "name": "Private Venture",
+      "icon": null,
+      "website": null,
+      "isMobileApp": false,
+      "appStoreUrl": null,
+      "appStoreCountry": null,
+      "playStoreUrl": null,
+      "playStoreRating": null,
+      "playStoreRatingCount": null,
+      "appStoreRating": null,
+      "appStoreRatingCount": null,
+      "ahrefsDomainRating": null,
+      "description": "SAT Learning platform. Platform Provides SAT Question banks, Practice Tests and Resources.",
+      "brandingPrimaryColor": "#6b7280",
+      "brandingSecondaryColor": "#9ca3af",
+      "xHandle": "arhamamiin",
+      "country": "IN",
+      "foundedDate": "2025-08-01T00:00:00.000Z",
+      "category": "Other",
+      "paymentProvider": "dodopayment",
+      "secondaryPaymentProvider": null,
+      "status": "active",
+      "currentTotalRevenue": 6497.9778916258265,
+      "currentMrr": 2680.89,
+      "currentLast30DaysRevenue": 1858.948903089106,
+      "currentActiveSubscriptions": 96,
+      "slug": "1600-lol",
+      "apiKeyExpired": false,
+      "isMerchantOfRecord": false,
+      "stealthMode": false,
+      "noIndex": false,
+      "xFollowerCount": 2104,
+      "xFounderName": "Arham Amin",
+      "xProfilePicture": "https://pbs.twimg.com/profile_images/2083940773658275840/Q4tvbAQ8.jpg",
+      "onSale": false,
+      "lookingForCofounder": false,
+      "lookingForCofounderMessage": null,
+      "firstListedForSaleAt": null,
+      "askingPrice": null,
+      "askingPriceHistory": [],
+      "profitMarginLast30Days": 100,
+      "sellerMessage": null,
+      "requireKycForOffers": false,
+      "cachedRank": 1654,
+      "cachedGrowth30d": 0.600770230954072,
+      "cachedGrowthMRR30d": 1152.8112263494859,
+      "cachedMultiple": null,
+      "cachedUniquePageviews": 0,
+      "cachedOfferCount": 0,
+      "aiEnrichment": {
+        "valueProposition": "Practice with a purpose. More practice. Higher score. Built for deliberate practice.",
+        "problemSolved": "Helps students identify and practice weak skills to improve their SAT scores through targeted questions and explanations.",
+        "pricingModel": "Free to join with additional Pro access available for purchase.",
+        "targetPersona": "Students preparing for the SAT",
+        "businessType": "B2C",
+        "tags": [
+          "education",
+          "productivity"
+        ],
+        "fundingStatus": "Unknown",
+        "misc": "Independent SAT practice platform with a community aspect through Discord.",
+        "estimatedUserCount": null,
+        "screenshots": []
+      },
+      "trafficLast30Days": 888,
+      "revenuePerVisitorLast30Days": 2.0934,
+      "cofounders": [],
+      "techStack": [
+        {
+          "slug": "nextjs",
+          "category": "frontend",
+          "_id": "6a829160a72046d55d71aab0"
+        },
+        {
+          "slug": "mongodb",
+          "category": "backend",
+          "_id": "6a829160a72046d55d71aab1"
+        },
+        {
+          "slug": "vercel",
+          "category": "backend",
+          "_id": "6a829160a72046d55d71aab2"
+        },
+        {
+          "slug": "azure",
+          "category": "backend",
+          "_id": "6a829160a72046d55d71aab3"
+        },
+        {
+          "slug": "nodejs",
+          "category": "backend",
+          "_id": "6a829160a72046d55d71aab4"
+        }
+      ],
+      "marketingChannels": [
+        {
+          "slug": "reddit",
+          "category": "social",
+          "_id": "6a829160a72046d55d71aab5"
+        },
+        {
+          "slug": "seo",
+          "category": "organic",
+          "_id": "6a829160a72046d55d71aab6"
+        },
+        {
+          "slug": "email-marketing",
+          "category": "outbound",
+          "_id": "6a829160a72046d55d71aab7"
+        }
+      ],
+      "createdAt": "2026-08-17T04:14:53.700Z",
+      "updatedAt": "2026-08-18T14:31:10.468Z",
+      "ahrefsDomain": null,
+      "ahrefsDomainRatingLastSyncedAt": null,
+      "mrrLastSyncedAt": "2026-08-18T12:56:29.467Z",
+      "revenueLastSyncedAt": "2026-08-18T12:56:29.062Z",
+      "playStoreMetadataCountry": null,
+      "startupInsightOverrides": {
+        "tags": [
+          "education"
+        ],
+        "valueProposition": "A Sat prep tool that centralizes question banks, pratice tests and Resources",
+        "problemSolved": "Practice test and question Banks simplified",
+        "pricingModel": "$$9/week & ab testing ($19/month & $49 one time payment)",
+        "targetPersona": "Students Preping for SAT",
+        "teamSize": "1",
+        "fundingStatus": "Bootstrapped",
+        "misc": "600-1000 daily visitors, Platform is growing organically, No new marketing was done since long and the platform is still growing, Freemium model right now (platform can make a lot more money if more agressive paywalling, lot of incoming traffic)",
+        "updatedAt": "2026-08-17T04:30:21.691Z"
+      },
+      "userCategory": "Education",
+      "userCategorySlug": "education",
+      "targetAudience": "B2C",
+      "rank": 1654,
+      "hasDatafast": false,
+      "hasGA": false,
+      "hasGSC": true,
+      "hasMetaAds": false,
+      "metaAdsCampaignCount": 0,
+      "metaAdsLast30DaysSpendUsd": null,
+      "metaAdsLastSyncedAt": null,
+      "hasDofollowBacklink": false,
+      "hasOwner": true,
+      "profileUrl": "https://trustmrr.com/startup/1600-lol",
+      "tagLine": "Practice with a purpose. More practice. Higher score. Built for deliberate practice.",
+      "founded": "2025",
+      "location": "IN",
+      "founderProfile": "https://trustmrr.com/founder/arhamamiin",
+      "founderTwitter": "https://x.com/arhamamiin"
+    },
+    "fetchMs": 50.52797499999997,
+    "parseMs": 0.9843510000000038
+  }
+]
