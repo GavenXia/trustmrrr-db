@@ -210,15 +210,11 @@ async function main() {
     : await scrapeWithBatch(slugs);
     const wallSec = (Date.now() - startTime) / 1000;
     const jsonData = {
-        startups,
-        failures,
-        wallSec: `All done in ${wallSec.toFixed(1)}s  (mode=${CONCURRENCY_MODE})\n`,
-        fetchTime: startups.reduce((acc, curr) => acc + curr.fetchMs, 0),
-        parseTime: startups.reduce((acc, curr) => acc + curr.parseMs, 0),
+        startups: startups.map(item => item.startup),
     }
     
     const outputPath = `${CONCURRENCY_MODE === 'pool' ? 'pool' : 'batch'}.json`;
-    writeOutput(outputPath, startups);
+    writeOutput(outputPath, jsonData);
     console.log(`\n[3/3] Output written to ${outputPath}\n`);
     console.log(`\n🎉 All done in ${wallSec.toFixed(1)}s  (mode=${CONCURRENCY_MODE})\n`);
     console.log(`📊 Success: ${startups.length}/${slugs.length}  failed: ${failures}`);
