@@ -1,15 +1,34 @@
-name: Scrape compare
+# 全量：4 分片并行（约 20 分钟）→ 合并 batch.json + failed.json
+# 补跑：只抓 failed.json 里可重试的 slug
+name: Scrape
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full = 分片全量；retry = 只跑 failed.json'
+        type: choice
+        options:
+          - full
+          - retry
+        default: full
+      concurrency:
+        description: '每片并发'
+        required: false
+        default: '10'
 
 permissions:
   contents: write
 
 jobs:
   scrape:
+    if: ${{ inputs.mode == 'full' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,13 +38,76 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run batch
+      - name: Scrape shard
+        env:
+          SHARD_INDEX: ${{ matrix.shard }}
+          SHARD_COUNT: '4'
+          CONCURRENCY: ${{ inputs.concurrency }}
         run: node main.mjs
+
+      - name: Upload shard
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shard-${{ matrix.shard }}
+          path: |
+            shard-${{ matrix.shard }}.json
+            failed-${{ matrix.shard }}.json
+          if-no-files-found: error
+
+  merge:
+    if: ${{ always() && inputs.mode == 'full' }}
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download shards
+        uses: actions/download-artifact@v4
+        with:
+          path: .
+          merge-multiple: true
+
+      - name: Merge
+        run: node main.mjs --merge --shards 4
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add batch.json pool.json
-          git diff --cached --quiet || git commit -m "chore: update data [skip ci]"
+          git add batch.json failed.json
+          git diff --cached --quiet || git commit -m "chore: update scrape data [skip ci]"
+          git push
+
+  retry:
+    if: ${{ inputs.mode == 'retry' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Retry failures
+        env:
+          CONCURRENCY: ${{ inputs.concurrency }}
+        run: node main.mjs --retry failed.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add batch.json failed.json
+          git diff --cached --quiet || git commit -m "chore: retry failed scrapes [skip ci]"
           git push
