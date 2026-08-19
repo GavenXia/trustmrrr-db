@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { dirname } from 'path';
-const data = JSON.parse(readFileSync('data.json', 'utf8'));
+const data = JSON.parse(readFileSync('data-mock.json', 'utf8'));
 const BASE_URL = 'https://trustmrr.com';
 const DELAY_MS = 200; // batch 模式：组与组之间的间隔
 const BATCH_SIZE = 2; // 同时在途的最大请求数
