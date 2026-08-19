@@ -1,0 +1,132 @@
+{
+  "failedAt": "2026-08-19T08:36:54.163Z",
+  "retry": "node main.mjs --retry failed.json",
+  "failures": [
+    {
+      "slug": "plant-powered-it-company",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.170Z"
+    },
+    {
+      "slug": "exitfounder-io",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.170Z"
+    },
+    {
+      "slug": "metricmap-tech-analytics-platform-for-saas-and-ecommerce-founders",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.170Z"
+    },
+    {
+      "slug": "vincere-dev",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.170Z"
+    },
+    {
+      "slug": "stonksgo-ai",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:36.343Z"
+    },
+    {
+      "slug": "contraceptive-ring-reminder",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:36.343Z"
+    },
+    {
+      "slug": "qwentin",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:36.343Z"
+    },
+    {
+      "slug": "leadsfuel-io",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:36.343Z"
+    },
+    {
+      "slug": "anonymous",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.548Z"
+    },
+    {
+      "slug": "goviraldev",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.548Z"
+    },
+    {
+      "slug": "magicslides-app",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:34.548Z"
+    },
+    {
+      "slug": "zipply",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:37.155Z"
+    },
+    {
+      "slug": "vibecom",
+      "reason": "http-404",
+      "status": 404,
+      "error": null,
+      "attempts": 1,
+      "retryable": false,
+      "at": "2026-08-19T08:36:37.155Z"
+    },
+    {
+      "slug": "lam-ngoc-lai",
+      "reason": "parse",
+      "status": 200,
+      "error": null,
+      "attempts": 3,
+      "retryable": true,
+      "at": "2026-08-19T08:36:37.155Z"
+    }
+  ]
+}
