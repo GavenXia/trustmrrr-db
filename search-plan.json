@@ -1,0 +1,37 @@
+{
+  "plannedAt": "2026-08-20T03:52:53.758Z",
+  "url": "https://trustmrr.com/api/search",
+  "sortBy": "latest",
+  "limit": 100,
+  "pagesPerShard": 20,
+  "total": 9358,
+  "pages": 94,
+  "shardCount": 5,
+  "shards": [
+    {
+      "index": 0,
+      "fromPage": 1,
+      "toPage": 20
+    },
+    {
+      "index": 1,
+      "fromPage": 21,
+      "toPage": 40
+    },
+    {
+      "index": 2,
+      "fromPage": 41,
+      "toPage": 60
+    },
+    {
+      "index": 3,
+      "fromPage": 61,
+      "toPage": 80
+    },
+    {
+      "index": 4,
+      "fromPage": 81,
+      "toPage": 94
+    }
+  ]
+}
