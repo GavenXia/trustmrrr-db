@@ -28,12 +28,24 @@ export function enrichStartup(startup) {
   return startup;
 }
 
+/** T 文本行可能被拆进下一段 push，且段尾没有 `\n`；下一段若以 hexId: 开头，补上回车以免粘行。 */
+function joinRscChunks(chunks) {
+  let out = '';
+  for (const chunk of chunks) {
+    if (out && !out.endsWith('\n') && /^[0-9a-fA-F]+:/.test(chunk)) {
+      out += '\n';
+    }
+    out += chunk;
+  }
+  return out;
+}
+
 function extractRscData(htmlText, matchers = []) {
   const chunks = [];
   const re = /self\.__next_f\.push\(\[1,\s*("(?:\\.|[^"\\])*")\s*\]\)/g;
   let m;
   while ((m = re.exec(htmlText)) !== null) chunks.push(JSON.parse(m[1]));
-  const lines = chunks.join('').split('\n');
+  const lines = joinRscChunks(chunks).split('\n');
 
   const objects = [];
   const seen = new Set();

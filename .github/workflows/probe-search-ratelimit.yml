@@ -1,0 +1,39 @@
+# 探测 POST /api/search 的限流：按间隔发出、不等待返回，遇 429 重试第一条直到 200
+name: Probe search rate limit
+
+on:
+  workflow_dispatch:
+    inputs:
+      interval_ms:
+        description: '请求发出间隔（毫秒）'
+        required: false
+        default: '200'
+      max_cycles:
+        description: '观察几次 429→200 后结束'
+        required: false
+        default: '3'
+      max_requests:
+        description: '最多发出次数'
+        required: false
+        default: '800'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Probe /api/search
+        env:
+          INTERVAL_MS: ${{ inputs.interval_ms }}
+          MAX_CYCLES: ${{ inputs.max_cycles }}
+          MAX_REQUESTS: ${{ inputs.max_requests }}
+          TRUSTMRR_COOKIE: ${{ secrets.TRUSTMRR_COOKIE }}
+        run: node probe-search-ratelimit.mjs
