@@ -1,15 +1,19 @@
-# 探测 POST /api/search 的限流：按间隔发出、不等待返回，遇 429 重试第一条直到 200
+# 探测 POST /api/search 的限流：打满后停发，等待 wait-s 再串行重试 429
 name: Probe search rate limit
 
 on:
   workflow_dispatch:
     inputs:
       interval_ms:
-        description: '请求发出间隔（毫秒）'
+        description: '主队列发出间隔（毫秒）'
         required: false
         default: '200'
+      wait_s:
+        description: '第一次 429 后停发等待秒数'
+        required: false
+        default: '50'
       max_cycles:
-        description: '观察几次 429→200 后结束'
+        description: '打满→等待→串行重试 的轮数'
         required: false
         default: '3'
       max_requests:
@@ -33,6 +37,7 @@ jobs:
       - name: Probe /api/search
         env:
           INTERVAL_MS: ${{ inputs.interval_ms }}
+          WAIT_S: ${{ inputs.wait_s }}
           MAX_CYCLES: ${{ inputs.max_cycles }}
           MAX_REQUESTS: ${{ inputs.max_requests }}
           TRUSTMRR_COOKIE: ${{ secrets.TRUSTMRR_COOKIE }}

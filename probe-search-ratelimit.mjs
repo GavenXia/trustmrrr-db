@@ -2,12 +2,11 @@
  * TrustMRR POST /api/search 限流探针（GitHub Actions / 本地）
  *
  * 主队列：page 1→50 循环，按间隔发出，不等待上一个返回。
- * 遇到 429：入缓存队列；只重试第一条，直到它返回 200。
- * 然后按间隔冲掉剩余缓存，再回到主队列。
- * 第一条 429 连续重试 2 分钟仍无 200：停，打印该 429 的完整请求/响应头。
+ * 第一次 429：立刻停发，等 wait-s（默认 50）秒，再对缓存的 429 串行重试
+ *（等上一条返回再发下一条）。仍 429 则再等 wait-s 后重试同一条。
  *
  *   node probe-search-ratelimit.mjs
- *   node probe-search-ratelimit.mjs --interval-ms 200 --max-cycles 3
+ *   node probe-search-ratelimit.mjs --interval-ms 200 --wait-s 50
  */
 import { fileURLToPath } from 'url';
 import { resolve } from 'path';
@@ -29,6 +28,7 @@ function parseArgs(argv) {
   return {
     help: argv.includes('--help') || argv.includes('-h'),
     intervalMs: Math.max(0, num('--interval-ms', 'INTERVAL_MS', 200)),
+    waitS: Math.max(0, num('--wait-s', 'WAIT_S', 50)),
     retryTimeoutMs: Math.max(1000, num('--retry-timeout-ms', 'RETRY_TIMEOUT_MS', 120_000)),
     maxCycles: Math.max(1, num('--max-cycles', 'MAX_CYCLES', 3)),
     maxRequests: Math.max(1, num('--max-requests', 'MAX_REQUESTS', 800)),
@@ -39,21 +39,23 @@ function parseArgs(argv) {
 }
 
 const args = parseArgs(process.argv.slice(2));
+const waitMs = Math.round(args.waitS * 1000);
 
 function printHelp() {
   console.log(`Usage:
   node probe-search-ratelimit.mjs
-  node probe-search-ratelimit.mjs --interval-ms 200 --max-cycles 3
+  node probe-search-ratelimit.mjs --interval-ms 200 --wait-s 50
 
-  --interval-ms N          主队列/重试发出间隔，默认 200
-  --retry-timeout-ms N     第一条 429 重试超时，默认 120000（2 分钟）
-  --max-cycles N           观察到几次 429→200 恢复后结束，默认 3
+  --interval-ms N          主队列发出间隔，默认 200（不等待返回）
+  --wait-s N               第一次 429 后停发等待秒数，默认 50
+  --retry-timeout-ms N     串行重试同一条 429 的总超时，默认 120000
+  --max-cycles N           打满→等待→串行重试 的轮数，默认 3
   --max-requests N         最多发出次数，默认 800
   --max-page N             page 循环上限，默认 50
   --limit N                默认 100
   --sort-by latest         默认 latest
 
-环境变量：INTERVAL_MS / RETRY_TIMEOUT_MS / MAX_CYCLES / TRUSTMRR_COOKIE
+环境变量：INTERVAL_MS / WAIT_S / RETRY_TIMEOUT_MS / MAX_CYCLES / TRUSTMRR_COOKIE
 `);
 }
 
@@ -123,14 +125,12 @@ const samples = [];
 
 let seq = 0;
 let pageCursor = 1;
-let mode = 'main'; // main | retry | drain
+let paused = false;
 let retryQueue = [];
-let retryDeadline = null;
 let cycles = 0;
 let stop = false;
 let stopReason = '';
 let inflight = 0;
-let retryEpoch = 0;
 let first429Dump = null;
 let last429Dump = null;
 
@@ -144,160 +144,154 @@ function shouldStopSending() {
   return stop || seq >= args.maxRequests;
 }
 
-function enterRetry(item) {
-  retryQueue.push(item);
-  if (mode === 'retry') return;
-  mode = 'retry';
-  retryEpoch += 1;
-  retryDeadline = Date.now() + args.retryTimeoutMs;
-  console.log(
-    `\n⏸  进入 429 重试：先打缓存队列第一条 page=${item.page}，超时 ${args.retryTimeoutMs / 1000}s\n`
-  );
+async function waitInflight() {
+  const start = Date.now();
+  while (inflight > 0 && Date.now() - start < 30_000) {
+    await sleep(50);
+  }
 }
 
-function fire(kind, page) {
-  if (shouldStopSending()) return;
+async function sleepInterruptible(ms) {
+  const step = 50;
+  for (let t = 0; t < ms && !stop && !paused; t += step) {
+    await sleep(Math.min(step, ms - t));
+  }
+}
+
+async function cooldown(reason) {
+  console.log(`\n⏸  ${reason}，停止发请求，等待 ${args.waitS}s\n`);
+  const started = Date.now();
+  while (!stop && Date.now() - started < waitMs) {
+    await sleep(Math.min(200, waitMs - (Date.now() - started)));
+  }
+  const elapsed = ((Date.now() - started) / 1000).toFixed(1);
+  console.log(`▶  已等待 ${elapsed}s，串行重试 ${retryQueue.length} 条 429\n`);
+}
+
+async function sendOnce(kind, page) {
+  if (shouldStopSending()) return null;
   const id = ++seq;
   const sentAt = Date.now();
-  const epoch = retryEpoch;
   const body = { sortBy: args.sortBy, limit: args.limit, page };
   inflight++;
 
-  fetch(SEARCH_URL, {
-    method: 'POST',
-    headers: requestHeaders,
-    body: JSON.stringify(body),
-  })
-    .then(async (res) => {
-      const recvAt = Date.now();
-      const text = await res.text().catch(() => '');
-      const rateHeaders = interesting429Headers(res.headers);
-      const dump = {
-        id,
-        kind,
-        page,
-        url: SEARCH_URL,
-        method: 'POST',
-        sentAt: iso(sentAt),
-        recvAt: iso(recvAt),
-        rttMs: recvAt - sentAt,
-        status: res.status,
-        requestHeaders: publicHeaders(requestHeaders),
-        requestBody: body,
-        responseHeaders: headersToObject(res.headers),
-        responseBody: text.slice(0, 2000),
-        rateLimitHeaders: rateHeaders,
-      };
-
-      const sample = {
-        id,
-        kind,
-        page,
-        sentAt,
-        recvAt,
-        status: res.status,
-        rttMs: recvAt - sentAt,
-        rateHeaders,
-      };
-      samples.push(sample);
-
-      const mark = res.status === 200 ? '✓' : res.status === 429 ? '⛔' : '⚠️';
-      const extra = Object.keys(rateHeaders).length ? `  ${JSON.stringify(rateHeaders)}` : '';
-      console.log(
-        `[#${String(id).padStart(4, '0')}] ${iso(sentAt)} → ${iso(recvAt)}  ${String(sample.rttMs).padStart(5)}ms  ${mark} HTTP ${res.status}  ${kind.toUpperCase().padEnd(5)} page=${page}${extra}`
-      );
-
-      if (res.status === 429) {
-        last429Dump = dump;
-        if (!first429Dump) {
-          first429Dump = dump;
-          printDump('FIRST 429', dump);
-        }
-        if (kind === 'retry') return;
-        enterRetry({ id, page, sentAt, recvAt });
-        return;
-      }
-
-      if (res.status === 200) {
-        if (kind === 'retry') {
-          if (mode !== 'retry' || epoch !== retryEpoch) return;
-          cycles += 1;
-          const waited = retryDeadline != null ? args.retryTimeoutMs - (retryDeadline - recvAt) : 0;
-          console.log(
-            `\n▶  第一条 429 恢复 200（cycle ${cycles}/${args.maxCycles}，重试等待 ${(waited / 1000).toFixed(1)}s）\n`
-          );
-          retryQueue.shift();
-          retryDeadline = null;
-          if (cycles >= args.maxCycles) {
-            stop = true;
-            stopReason = `已完成 ${cycles} 次 429→200`;
-            return;
-          }
-          mode = retryQueue.length ? 'drain' : 'main';
-          if (mode === 'drain') {
-            console.log(`→ 冲缓存队列，剩余 ${retryQueue.length} 条（各发一次）\n`);
-          } else {
-            console.log('→ 缓存已空，继续主队列\n');
-          }
-        }
-      }
-    })
-    .catch((err) => {
-      const recvAt = Date.now();
-      samples.push({
-        id,
-        kind,
-        page,
-        sentAt,
-        recvAt,
-        status: 0,
-        rttMs: recvAt - sentAt,
-        error: err.message,
-      });
-      console.log(
-        `[#${String(id).padStart(4, '0')}] ${iso(sentAt)} → ${iso(recvAt)}  ${String(recvAt - sentAt).padStart(5)}ms  ✗ NET ${err.message}  ${kind.toUpperCase().padEnd(5)} page=${page}`
-      );
-    })
-    .finally(() => {
-      inflight--;
+  try {
+    const res = await fetch(SEARCH_URL, {
+      method: 'POST',
+      headers: requestHeaders,
+      body: JSON.stringify(body),
     });
+    const recvAt = Date.now();
+    const text = await res.text().catch(() => '');
+    const rateHeaders = interesting429Headers(res.headers);
+    const dump = {
+      id,
+      kind,
+      page,
+      url: SEARCH_URL,
+      method: 'POST',
+      sentAt: iso(sentAt),
+      recvAt: iso(recvAt),
+      rttMs: recvAt - sentAt,
+      status: res.status,
+      requestHeaders: publicHeaders(requestHeaders),
+      requestBody: body,
+      responseHeaders: headersToObject(res.headers),
+      responseBody: text.slice(0, 2000),
+      rateLimitHeaders: rateHeaders,
+    };
+
+    const sample = {
+      id,
+      kind,
+      page,
+      sentAt,
+      recvAt,
+      status: res.status,
+      rttMs: recvAt - sentAt,
+      rateHeaders,
+    };
+    samples.push(sample);
+
+    const mark = res.status === 200 ? '✓' : res.status === 429 ? '⛔' : '⚠️';
+    const extra = Object.keys(rateHeaders).length ? `  ${JSON.stringify(rateHeaders)}` : '';
+    console.log(
+      `[#${String(id).padStart(4, '0')}] ${iso(sentAt)} → ${iso(recvAt)}  ${String(sample.rttMs).padStart(5)}ms  ${mark} HTTP ${res.status}  ${kind.toUpperCase().padEnd(5)} page=${page}${extra}`
+    );
+
+    if (res.status === 429) {
+      last429Dump = dump;
+      if (!first429Dump) {
+        first429Dump = dump;
+        printDump('FIRST 429', dump);
+      }
+      if (kind !== 'retry') {
+        retryQueue.push({ id, page, sentAt, recvAt });
+        paused = true;
+      }
+    }
+
+    return sample;
+  } catch (err) {
+    const recvAt = Date.now();
+    const sample = {
+      id,
+      kind,
+      page,
+      sentAt,
+      recvAt,
+      status: 0,
+      rttMs: recvAt - sentAt,
+      error: err.message,
+    };
+    samples.push(sample);
+    console.log(
+      `[#${String(id).padStart(4, '0')}] ${iso(sentAt)} → ${iso(recvAt)}  ${String(recvAt - sentAt).padStart(5)}ms  ✗ NET ${err.message}  ${kind.toUpperCase().padEnd(5)} page=${page}`
+    );
+    return sample;
+  } finally {
+    inflight--;
+  }
 }
 
-function tick() {
-  if (stop) return;
-  if (seq >= args.maxRequests) {
-    stop = true;
-    stopReason = `达到 max-requests=${args.maxRequests}`;
-    return;
-  }
-
-  if (mode === 'retry') {
-    if (retryDeadline != null && Date.now() > retryDeadline) {
+async function runMainBurst() {
+  paused = false;
+  while (!stop && !paused) {
+    if (shouldStopSending()) {
       stop = true;
-      stopReason = `第一条 429 重试 ${args.retryTimeoutMs / 1000}s 仍无 200`;
+      stopReason = stopReason || `达到 max-requests=${args.maxRequests}`;
       return;
     }
-    const first = retryQueue[0];
-    if (!first) {
-      mode = 'main';
-    } else {
-      fire('retry', first.page);
-      return;
-    }
+    sendOnce('main', nextPage());
+    await sleepInterruptible(args.intervalMs);
   }
+  await waitInflight();
+}
 
-  if (mode === 'drain') {
-    if (!retryQueue.length) {
-      mode = 'main';
-      console.log('\n→ 缓存队列冲完，继续主队列\n');
-    } else {
-      const item = retryQueue.shift();
-      fire('drain', item.page);
+async function runSerialRetry() {
+  const retryStarted = Date.now();
+  while (retryQueue.length && !stop) {
+    if (Date.now() - retryStarted > args.retryTimeoutMs) {
+      stop = true;
+      stopReason = `串行重试 ${args.retryTimeoutMs / 1000}s 仍有 429`;
       return;
     }
+    if (shouldStopSending()) {
+      stop = true;
+      stopReason = stopReason || `达到 max-requests=${args.maxRequests}`;
+      return;
+    }
+    const item = retryQueue[0];
+    const result = await sendOnce('retry', item.page);
+    if (!result) return;
+    if (result.status === 200) {
+      retryQueue.shift();
+      console.log(`   → page=${item.page} 重试成功，缓存剩余 ${retryQueue.length}`);
+      continue;
+    }
+    console.log(`   → page=${item.page} 仍 ${result.status || 'NET'}，再等 ${args.waitS}s`);
+    await sleep(waitMs);
   }
-
-  fire('main', nextPage());
 }
 
 function analyze() {
@@ -307,7 +301,7 @@ function analyze() {
   console.log('\n========== 分析摘要 ==========');
   console.log(`stop: ${stopReason || 'normal'}`);
   console.log(`sent=${samples.length}  200=${ok.length}  429=${limited.length}  other=${other.length}  cycles=${cycles}`);
-  console.log(`interval=${args.intervalMs}ms  page=1..${args.maxPage}  limit=${args.limit}  sortBy=${args.sortBy}`);
+  console.log(`interval=${args.intervalMs}ms  wait=${args.waitS}s  page=1..${args.maxPage}  limit=${args.limit}  sortBy=${args.sortBy}`);
 
   if (!limited.length) {
     console.log('未打到 429。加大 --max-requests 或减小 --interval-ms 再试。');
@@ -376,9 +370,8 @@ function analyze() {
 
   console.log('\n怎么读这段日志:');
   console.log('  · 连续 200 的条数 ≈ 窗口额度（按发出顺序更接近服务端计数）');
-  console.log('  · 第一条 200 的发出/返回 各自 + 恢复等待，谁更贴整秒谁就是开窗锚点');
+  console.log(`  · 第一次 429 后固定等待 ${args.waitS}s，再串行重试；恢复时刻相对整分/首请求可对照`);
   console.log('  · 恢复后下一波还能打满相近条数 → 固定窗口；额度越打越少 → 滑动');
-  console.log('  · 恢复时刻贴整分 → 日历对齐；否则是首请求开窗');
   console.log('========== END ==========\n');
 }
 
@@ -389,24 +382,40 @@ async function main() {
   }
 
   console.log('TrustMRR /api/search rate-limit probe');
-  console.log(`url=${SEARCH_URL}  interval=${args.intervalMs}ms  retryTimeout=${args.retryTimeoutMs}ms`);
+  console.log(`url=${SEARCH_URL}  interval=${args.intervalMs}ms  wait=${args.waitS}s`);
   console.log(`maxCycles=${args.maxCycles}  maxRequests=${args.maxRequests}  page=1..${args.maxPage} loop`);
   console.log(`body={ sortBy: "${args.sortBy}", limit: ${args.limit}, page }`);
   console.log(`cookie=${process.env.TRUSTMRR_COOKIE ? 'yes' : 'no'}`);
   console.log('');
 
   while (!stop) {
-    tick();
+    await runMainBurst();
     if (stop) break;
-    await sleep(args.intervalMs);
+    if (!retryQueue.length) {
+      stop = true;
+      stopReason = stopReason || '主队列结束且无 429';
+      break;
+    }
+
+    cycles += 1;
+    console.log(`\n—— cycle ${cycles}/${args.maxCycles}：额度打满，缓存 ${retryQueue.length} 条 429 ——`);
+    await cooldown('第一轮额度打满（429）');
+    if (stop) break;
+    await runSerialRetry();
+    if (stop) break;
+
+    if (cycles >= args.maxCycles) {
+      stop = true;
+      stopReason = `已完成 ${cycles} 轮 打满→等待→串行重试`;
+      break;
+    }
+
+    console.log('\n→ 缓存已空，继续主队列\n');
   }
 
-  const waitStart = Date.now();
-  while (inflight > 0 && Date.now() - waitStart < 30_000) {
-    await sleep(50);
-  }
+  await waitInflight();
 
-  if (stopReason.includes('仍无 200')) {
+  if (stopReason.includes('仍有 429')) {
     printDump('429 TIMEOUT DUMP', last429Dump || first429Dump || { error: 'no dump' });
   }
 
